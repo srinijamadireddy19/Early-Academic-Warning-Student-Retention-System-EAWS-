@@ -1,3 +1,16 @@
+import pandas as pd
+import numpy as np
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from mapie.regression import SplitConformalRegressor
+
+from data_preprocessing import DataPreprocessor
+
 class Regressor:
     def __init__(self, X_train, y_train):
         self.X_train = X_train
@@ -69,7 +82,7 @@ class Regressor:
 
     lr_pipeline = Pipeline([
         ("preprocessor", preprocessor),
-        ("model", LinearRegression())
+        ("lr", LinearRegression())
     ])
 
     self.mapie_model = SplitConformalRegressor(
@@ -92,16 +105,16 @@ class Regressor:
 
     return self.mapie_model
 
-def predict_with_intervals(self, X_test):
-    """Predict with 95% prediction intervals."""
+    def predict_with_intervals(self, X_test):
+        """Predict with 95% prediction intervals."""
 
-    predictions, intervals = (
-        self.mapie_model.predict_interval(X_test)
-    )
+        predictions, intervals = (
+            self.mapie_model.predict_interval(X_test)
+        )
 
-    lower_bounds = intervals[:, 0, 0]
-    upper_bounds = intervals[:, 1, 0]
+        lower_bounds = intervals[:, 0, 0]
+        upper_bounds = intervals[:, 1, 0]
 
-    return predictions, lower_bounds, upper_bounds
+        return predictions, lower_bounds, upper_bounds
 
-}
+    

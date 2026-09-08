@@ -1,5 +1,9 @@
 import pandas as pd
 import numpy as np
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 
 class DataPreprocessor:
@@ -14,10 +18,10 @@ class DataPreprocessor:
         ])
             
          # Categorical preprocessing 
-         categorical_pipeline = Pipeline([ 
+        categorical_pipeline = Pipeline([ 
             ("imputer", SimpleImputer(strategy="most_frequent")),
-             ("encoder", OneHotEncoder(handle_unknown="ignore")) 
-            ]) 
+            ("encoder", OneHotEncoder(handle_unknown="ignore")) 
+        ]) 
             
         # Combine both pipelines 
         preprocessor = ColumnTransformer([ 
@@ -26,4 +30,6 @@ class DataPreprocessor:
         ]) 
         
         return preprocessor
+
+    
 

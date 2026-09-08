@@ -27,7 +27,7 @@ class FeatureEngineer:
             else:
                 return 'poor'
 
-        self.df['academic_level'] = self.df['final_grade'].apply(academic_momentum)
+        self.df['academic_level'] = self.df['final_exam_score'].apply(academic_momentum)
 
     def create_attendance_risk(self):
         def attendance_risk(attendance):
@@ -38,7 +38,7 @@ class FeatureEngineer:
             else:
                 return 'Healthy'
 
-        self.df['attendance_risk'] = self.df['attendance_percentage'].apply(attendance_risk)
+        self.df['attendance_risk_level'] = self.df['attendance_percent'].apply(attendance_risk)
 
 
     def create_sleep_risk(self):
@@ -46,7 +46,7 @@ class FeatureEngineer:
         self.df['deviation_bin'] = self.df['sleep_deviation'].round()
 
     def create_workload_risk(self):
-        threshold = 7.5
+        threshold = 7.0
         self.df['high_workload_low_sleep'] = (
             (self.df['part_time_job'].astype(str).str.strip().str.lower() == 'yes') & 
             (self.df['sleep_hours'] < threshold)

@@ -19,9 +19,6 @@ class DataCleaner:
 
         # Drop duplicates
         df.drop_duplicates(inplace=True)
-
-        # Handle missing values of parental_education by filling with unknown
-        df['parental_education'].fillna('unknown', inplace=True)
         
         # clean column names
         df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')

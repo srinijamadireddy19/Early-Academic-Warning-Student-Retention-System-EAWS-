@@ -1,0 +1,1001 @@
+student_id,gender,study_time_hours,attendance_percent,sleep_hours,parental_education,internet_access,extracurricular_activities,part_time_job,previous_grade,final_exam_score,final_grade,at_risk,academic_level,attendance_risk_level,sleep_deviation,deviation_bin,high_workload_low_sleep,engagement_score
+1,Male,4.0,98.0,6.5,Bachelors,Yes,Yes,No,76.9,100.0,A,0,excellent,Healthy,1.0,1.0,0,0.8054261760596182
+2,Female,6.3,100.0,5.7,High School,Yes,Yes,Yes,75.5,100.0,A,0,excellent,Healthy,1.7999999999999998,2.0,1,0.9210526315789473
+3,Male,4.9,85.3,7.9,Bachelors,Yes,No,Yes,88.5,97.3,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.41790870982766654
+4,Male,2.6,77.5,8.0,,Yes,Yes,No,85.1,83.8,B,0,excellent,Healthy,0.5,0.0,0,0.5928427262847384
+5,Male,2.2,89.6,4.6,Bachelors,Yes,No,Yes,61.8,68.3,D,1,average,Healthy,2.9000000000000004,3.0,1,0.3311985716503648
+6,Female,4.2,78.2,5.7,High School,Yes,No,No,79.8,81.6,B,0,excellent,Healthy,1.7999999999999998,2.0,0,0.33484707343580195
+7,Male,1.5,100.0,5.0,High School,Yes,Yes,Yes,58.6,69.6,D,1,average,Healthy,2.5,2.0,1,0.7105263157894738
+8,Male,6.2,86.4,6.0,High School,Yes,Yes,No,78.4,88.0,B,0,excellent,Healthy,1.5,2.0,0,0.8163716814159293
+9,Male,5.3,81.3,6.7,Bachelors,Yes,No,No,63.8,84.4,B,0,excellent,Healthy,0.7999999999999998,1.0,0,0.40595404440304295
+10,Female,2.8,86.8,5.1,Bachelors,Yes,Yes,No,57.7,74.3,C,0,average,Healthy,2.4000000000000004,2.0,0,0.67019872690576
+11,Male,0.9,71.5,5.7,High School,Yes,No,Yes,73.4,68.9,D,1,average,Moderate,1.7999999999999998,2.0,1,0.14070020183201368
+12,Male,5.5,75.3,5.6,,Yes,Yes,No,37.9,76.7,C,0,average,Healthy,1.9000000000000004,2.0,0,0.7038115199503183
+13,Male,3.3,97.0,7.0,Masters,Yes,Yes,Yes,49.0,82.6,B,0,excellent,Healthy,0.5,0.0,0,0.7673497904052166
+14,Male,5.4,78.4,6.9,Bachelors,No,No,No,67.9,93.3,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.3889535786368577
+15,Female,1.1,74.5,5.9,Masters,Yes,Yes,Yes,71.0,73.9,C,0,average,Moderate,1.5999999999999996,2.0,1,0.5049293587952182
+16,Male,2.6,90.4,7.0,High School,Yes,Yes,No,65.6,84.8,B,0,excellent,Healthy,0.5,0.0,0,0.6879754696475704
+17,Female,3.5,96.9,6.1,Bachelors,Yes,Yes,No,51.0,81.5,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7753842571029343
+18,Female,3.6,92.2,6.5,Bachelors,Yes,Yes,Yes,60.2,75.5,C,0,average,Healthy,1.0,1.0,1,0.7451094550535631
+19,Female,2.8,95.0,8.8,Masters,No,Yes,No,74.7,89.7,B,0,excellent,Healthy,1.3000000000000007,1.0,0,0.7306707033069401
+20,Male,4.4,77.4,8.4,Masters,No,No,Yes,77.0,92.8,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.3377192982456141
+21,Female,1.9,70.8,5.2,High School,Yes,Yes,No,69.8,73.5,C,0,average,Moderate,2.3,2.0,0,0.5127309424002484
+22,Male,3.3,100.0,7.8,,Yes,Yes,No,83.9,100.0,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7894736842105262
+23,Female,3.7,81.8,7.8,High School,No,No,No,74.8,73.4,C,0,average,Healthy,0.2999999999999998,0.0,0,0.33946592144077004
+24,Female,4.3,82.5,5.4,PhD,No,Yes,No,61.0,71.2,C,0,average,Healthy,2.0999999999999996,2.0,0,0.7042772861356932
+25,Female,4.6,98.3,7.8,,Yes,Yes,Yes,66.6,97.2,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.8339543549138332
+26,Female,1.8,90.6,8.6,High School,Yes,No,No,53.2,76.0,C,0,average,Healthy,1.0999999999999996,1.0,0,0.3210293432696786
+27,Female,1.2,89.6,5.5,Masters,Yes,No,Yes,68.7,78.7,C,0,average,Healthy,2.0,2.0,1,0.28733892252755777
+28,Female,5.4,100.0,5.7,High School,No,No,No,83.3,97.4,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.5482456140350878
+29,Female,4.0,78.6,8.0,Bachelors,Yes,No,No,78.2,84.2,B,0,excellent,Healthy,0.5,0.0,0,0.32902499611861513
+30,Female,2.4,94.3,7.1,Bachelors,Yes,Yes,No,86.8,89.8,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7079646017699114
+31,Male,5.8,85.6,7.5,Bachelors,Yes,No,Yes,66.4,82.4,B,0,excellent,Healthy,0.0,0.0,0,0.4595947834187238
+32,Male,3.7,87.7,7.2,,Yes,Yes,No,86.2,87.7,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7163095792578792
+33,Female,5.3,100.0,7.3,Masters,Yes,Yes,No,67.7,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.8771929824561404
+34,Female,3.6,90.1,5.2,Bachelors,No,Yes,No,87.7,93.3,A,0,excellent,Healthy,2.3,2.0,0,0.7296227293898463
+35,Female,6.6,90.4,8.1,Masters,Yes,Yes,Yes,69.7,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.8634140661387985
+36,Male,6.1,95.7,8.2,,Yes,Yes,Yes,78.5,92.9,A,0,excellent,Healthy,0.6999999999999993,1.0,0,0.8805697873001087
+37,Female,3.1,81.4,6.5,High School,Yes,No,Yes,87.7,83.2,B,0,excellent,Healthy,1.0,1.0,1,0.31020027945971124
+38,Male,5.0,76.6,6.7,,Yes,Yes,No,67.7,81.1,B,0,excellent,Healthy,0.7999999999999998,1.0,0,0.6914687160378823
+39,Male,4.5,74.6,5.0,High School,Yes,Yes,Yes,72.6,89.5,B,0,excellent,Moderate,2.5,2.0,1,0.6547896289396057
+40,Male,5.6,65.3,7.4,Masters,Yes,Yes,No,85.5,91.6,A,0,excellent,Moderate,0.09999999999999964,0.0,0,0.6344511721782332
+41,Male,2.1,100.0,7.5,High School,Yes,Yes,Yes,68.4,75.3,C,0,average,Healthy,0.0,0.0,0,0.7368421052631579
+42,Male,4.5,74.0,6.7,High School,Yes,No,No,54.1,79.0,C,0,average,Moderate,0.7999999999999998,1.0,0,0.3170315168452104
+43,Female,5.1,82.8,8.1,Bachelors,Yes,Yes,No,95.7,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7415773948144698
+44,Female,0.9,82.2,6.4,Bachelors,Yes,Yes,No,64.4,79.2,C,0,average,Healthy,1.0999999999999996,1.0,0,0.5529420897376184
+45,Female,1.7,88.1,7.5,Bachelors,No,Yes,No,71.9,70.8,C,0,average,Healthy,0.0,0.0,0,0.6315401335196398
+46,Female,0.5,93.2,5.6,High School,No,No,Yes,83.9,61.8,D,1,average,Healthy,1.9000000000000004,2.0,1,0.28318584070796465
+47,Female,3.1,93.6,6.8,Bachelors,Yes,Yes,Yes,62.7,68.0,D,1,average,Healthy,0.7000000000000002,1.0,1,0.7335041142679707
+48,Male,4.6,79.2,6.6,,Yes,Yes,Yes,57.9,80.3,B,0,excellent,Healthy,0.9000000000000004,1.0,1,0.6930988976866946
+49,Female,5.8,83.3,7.1,Bachelors,No,Yes,No,73.0,88.6,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7759664648346529
+50,Female,3.6,87.8,6.4,High School,Yes,Yes,No,48.5,69.4,D,1,average,Healthy,1.0999999999999996,1.0,0,0.7126610774724421
+51,Male,5.9,82.5,6.6,Bachelors,Yes,Yes,No,66.5,100.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.7744527247321845
+52,Female,1.4,100.0,7.8,High School,No,No,No,72.9,81.8,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.37280701754385964
+53,Male,0.9,89.9,6.3,Masters,Yes,No,No,66.8,72.6,C,0,average,Healthy,1.2000000000000002,1.0,0,0.27639341717124677
+54,Female,3.4,92.3,4.9,Masters,Yes,No,No,51.5,85.3,B,0,excellent,Healthy,2.5999999999999996,3.0,0,0.40374165502251197
+55,Male,4.1,91.6,8.9,Bachelors,No,Yes,No,89.1,99.8,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7626145008539046
+56,Female,3.5,96.7,8.5,Bachelors,Yes,Yes,Yes,71.2,84.3,B,0,excellent,Healthy,1.0,1.0,0,0.773909330849247
+57,Female,0.5,86.8,5.2,Masters,Yes,Yes,No,87.2,71.5,C,0,average,Healthy,2.3,2.0,0,0.5693215339233039
+58,Male,3.4,72.0,7.6,Bachelors,Yes,No,No,66.9,84.3,B,0,excellent,Moderate,0.09999999999999964,0.0,0,0.2540366402732495
+59,Male,1.5,89.0,6.2,Masters,Yes,No,No,59.4,74.5,C,0,average,Healthy,1.2999999999999998,1.0,0,0.296072038503338
+60,Male,4.5,78.5,7.1,Bachelors,Yes,No,No,73.2,89.5,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.350217357553175
+61,Male,4.0,79.7,7.2,Masters,Yes,Yes,No,67.4,80.4,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.6704704238472288
+62,Male,2.1,90.9,6.5,Bachelors,No,Yes,Yes,55.9,71.1,C,0,average,Healthy,1.0,1.0,1,0.6697329607203851
+63,Male,2.7,97.4,5.9,Bachelors,Yes,Yes,No,87.6,87.8,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.743983853438907
+64,Male,1.9,85.2,6.0,,Yes,No,No,62.5,73.0,C,0,average,Healthy,1.5,2.0,0,0.2855922993324018
+65,Male,3.4,88.1,5.7,Bachelors,Yes,No,Yes,47.9,80.8,B,0,excellent,Healthy,1.7999999999999998,2.0,1,0.37276820369507835
+66,Female,4.9,100.0,5.8,Bachelors,Yes,No,No,85.9,97.4,A,0,excellent,Healthy,1.7000000000000002,2.0,0,0.5263157894736842
+67,Female,2.0,87.4,6.7,High School,Yes,Yes,No,63.9,67.8,D,1,average,Healthy,0.7999999999999998,1.0,0,0.6395357863685763
+68,Male,4.3,100.0,5.9,Bachelors,No,Yes,No,62.7,79.2,C,0,average,Healthy,1.5999999999999996,2.0,0,0.8333333333333334
+69,Female,2.7,90.7,7.6,Bachelors,No,No,Yes,48.8,73.5,C,0,average,Healthy,0.09999999999999964,0.0,0,0.3612404906070486
+70,Female,2.3,67.4,8.6,High School,Yes,No,No,90.9,85.1,B,0,excellent,Moderate,1.0999999999999996,1.0,0,0.17186772240335357
+71,Female,3.3,92.5,6.1,High School,Yes,Yes,No,54.5,79.6,C,0,average,Healthy,1.4000000000000004,1.0,0,0.7341639496972521
+72,Female,1.9,88.8,7.1,Bachelors,Yes,Yes,No,70.7,77.4,C,0,average,Healthy,0.40000000000000036,0.0,0,0.6454743052321068
+73,Male,2.7,97.9,7.4,Masters,Yes,Yes,No,81.0,94.6,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7476711690731254
+74,Female,1.7,91.7,7.4,Bachelors,Yes,Yes,No,75.1,77.6,C,0,average,Healthy,0.09999999999999964,0.0,0,0.6580888060860115
+75,Male,6.4,83.6,6.9,High School,Yes,Yes,No,69.3,99.9,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.8044946436888681
+76,Female,3.6,72.8,7.7,Masters,No,No,No,49.6,64.4,D,1,average,Moderate,0.20000000000000018,0.0,0,0.2687082751125602
+77,Female,2.5,82.9,7.4,High School,Yes,Yes,No,60.3,71.9,C,0,average,Healthy,0.09999999999999964,0.0,0,0.6282797702220152
+78,Female,3.8,76.5,5.3,Bachelors,Yes,Yes,No,72.3,79.3,C,0,average,Healthy,2.2,2.0,0,0.6380996739636703
+79,Male,3.3,79.2,7.8,High School,Yes,Yes,Yes,60.6,74.9,C,0,average,Healthy,0.2999999999999998,0.0,0,0.6360813538270454
+80,Female,3.2,90.9,7.9,High School,Yes,No,No,72.4,87.4,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.3846452414221395
+81,Male,4.4,100.0,5.9,High School,Yes,No,No,78.2,97.6,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.5043859649122807
+82,Female,4.6,88.9,6.8,Bachelors,Yes,Yes,No,81.6,74.5,C,0,average,Healthy,0.7000000000000002,1.0,0,0.7646328209905295
+83,Male,2.7,73.0,7.6,High School,Yes,No,Yes,55.3,64.1,D,1,average,Moderate,0.09999999999999964,0.0,0,0.2307095171557212
+84,Female,2.6,89.4,6.5,Bachelors,Yes,No,No,96.4,90.0,A,0,excellent,Healthy,1.0,1.0,0,0.34726750504580045
+85,Male,3.1,97.0,8.1,Bachelors,Yes,Yes,Yes,79.2,99.3,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7585778605806551
+86,Male,0.5,78.9,9.6,Bachelors,Yes,Yes,Yes,70.0,63.9,D,1,average,Healthy,2.0999999999999996,2.0,0,0.5110619469026548
+87,Female,1.2,83.7,5.9,Bachelors,Yes,No,No,83.1,79.0,C,0,average,Healthy,1.5999999999999996,2.0,0,0.243828598043782
+88,Male,5.6,85.1,5.1,Masters,Yes,No,No,98.4,100.0,A,0,excellent,Healthy,2.4000000000000004,2.0,0,0.44713553795994404
+89,Female,6.0,77.2,7.2,High School,Yes,No,No,52.7,78.9,C,0,average,Healthy,0.2999999999999998,0.0,0,0.406419810588418
+90,Female,3.1,91.5,7.7,Bachelors,Yes,No,Yes,67.3,84.5,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.3846840552709207
+91,Female,4.4,83.8,6.5,High School,Yes,No,No,41.5,71.7,C,0,average,Healthy,1.0,1.0,0,0.3849169383636082
+92,Female,4.0,89.2,8.5,High School,Yes,Yes,Yes,72.3,86.3,B,0,excellent,Healthy,1.0,1.0,0,0.7405294208973762
+93,Female,8.1,76.1,5.2,Bachelors,Yes,Yes,No,74.4,98.3,A,0,excellent,Healthy,2.3,2.0,0,0.8237463126843657
+94,Female,5.2,80.6,7.6,Bachelors,Yes,Yes,No,69.5,88.1,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.72973917093619
+95,Female,3.3,92.2,6.1,PhD,Yes,Yes,No,62.1,99.6,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.731951560316721
+96,Female,2.1,81.3,8.9,Bachelors,Yes,No,No,45.4,74.8,C,0,average,Healthy,1.4000000000000004,1.0,0,0.26560316721006055
+97,Female,1.1,100.0,9.2,,Yes,No,Yes,74.5,87.4,B,0,excellent,Healthy,1.6999999999999993,2.0,0,0.35964912280701755
+98,Female,3.8,81.0,5.9,High School,No,No,No,87.5,88.5,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.3379521813383015
+99,Female,2.4,87.2,6.1,High School,Yes,Yes,Yes,62.9,65.2,D,1,average,Healthy,1.4000000000000004,1.0,1,0.6556047197640118
+100,Male,1.4,94.3,7.8,High School,No,No,No,75.3,79.2,C,0,average,Healthy,0.2999999999999998,0.0,0,0.33077161931377114
+101,Male,2.5,70.8,6.3,High School,Yes,Yes,No,51.2,74.5,C,0,average,Moderate,1.2000000000000002,1.0,0,0.5390467318739326
+102,Female,1.9,67.4,6.7,Bachelors,Yes,Yes,Yes,75.5,66.3,D,1,average,Moderate,0.7999999999999998,1.0,1,0.48765719608756414
+103,Female,6.0,69.7,6.8,Bachelors,No,No,No,65.3,89.5,B,0,excellent,Moderate,0.7000000000000002,1.0,0,0.3511100760751436
+104,Female,4.8,97.6,4.5,High School,Yes,No,No,60.9,92.7,A,0,excellent,Healthy,3.0,3.0,0,0.5042307095171558
+105,Female,3.5,79.5,6.8,,Yes,No,Yes,60.9,87.2,B,0,excellent,Healthy,0.7000000000000002,1.0,1,0.31373233969880454
+106,Female,5.7,100.0,6.0,Masters,Yes,Yes,Yes,65.3,92.5,A,0,excellent,Healthy,1.5,2.0,1,0.8947368421052632
+107,Female,3.6,79.4,6.2,High School,Yes,Yes,Yes,74.6,75.7,C,0,average,Healthy,1.2999999999999998,1.0,1,0.650714174817575
+108,Female,2.2,86.8,8.5,High School,Yes,Yes,No,54.3,74.0,C,0,average,Healthy,1.0,1.0,0,0.6438829374320757
+109,Female,5.8,100.0,5.3,High School,Yes,Yes,No,65.2,100.0,A,0,excellent,Healthy,2.2,2.0,0,0.899122807017544
+110,Male,4.3,100.0,7.8,High School,No,No,Yes,69.5,75.5,C,0,average,Healthy,0.2999999999999998,0.0,0,0.5
+111,Female,1.9,100.0,6.5,High School,Yes,No,Yes,56.8,61.7,D,1,average,Healthy,1.0,1.0,1,0.3947368421052631
+112,Male,3.2,97.1,6.5,Bachelors,No,No,No,91.6,91.4,A,0,excellent,Healthy,1.0,1.0,0,0.43036795528644617
+113,Female,2.2,95.2,7.7,High School,No,Yes,No,59.8,72.7,C,0,average,Healthy,0.20000000000000018,0.0,0,0.705829840086943
+114,Female,1.4,90.9,7.2,Bachelors,Yes,No,No,62.0,74.6,C,0,average,Healthy,0.2999999999999998,0.0,0,0.30569787300108686
+115,Male,4.9,92.8,7.5,,Yes,Yes,No,58.3,96.5,A,0,excellent,Healthy,0.0,0.0,0,0.8065517776742741
+116,Female,6.4,79.5,8.0,Masters,No,No,Yes,91.6,94.5,A,0,excellent,Healthy,0.5,0.0,0,0.44092532215494495
+117,Male,1.4,76.8,6.4,,No,Yes,No,76.6,59.3,F,1,poor,Healthy,1.0999999999999996,1.0,0,0.5350489054494644
+118,Female,4.3,85.0,6.1,High School,Yes,Yes,No,58.8,96.2,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7227138643067846
+119,Female,2.5,83.3,5.5,Bachelors,Yes,Yes,Yes,83.3,75.3,C,0,average,Healthy,2.0,2.0,1,0.6312296227293898
+120,Male,2.8,80.5,5.8,Bachelors,Yes,No,No,72.4,73.3,C,0,average,Healthy,1.7000000000000002,2.0,0,0.2904052165812762
+121,Female,2.6,92.0,10.0,High School,Yes,Yes,No,73.1,95.8,A,0,excellent,Healthy,2.5,2.0,0,0.6997748796770688
+122,Male,2.2,94.6,8.3,High School,Yes,Yes,No,65.9,81.0,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.7014050613258811
+123,Female,3.6,85.9,5.2,Masters,Yes,No,Yes,61.0,76.5,C,0,average,Healthy,2.3,2.0,1,0.3653159447290794
+124,Male,2.3,99.8,5.2,Bachelors,Yes,Yes,No,74.1,88.1,B,0,excellent,Healthy,2.3,2.0,0,0.744139108834032
+125,Male,3.9,73.6,7.4,Bachelors,Yes,Yes,No,63.5,88.1,B,0,excellent,Moderate,0.09999999999999964,0.0,0,0.6210992081974848
+126,Female,3.4,83.1,7.5,Bachelors,Yes,Yes,No,91.8,92.1,A,0,excellent,Healthy,0.0,0.0,0,0.6692283806862288
+127,Female,3.1,77.8,7.5,Bachelors,Yes,Yes,No,54.8,85.2,B,0,excellent,Healthy,0.0,0.0,0,0.6169849402266728
+128,Male,2.1,66.3,6.5,High School,Yes,No,Yes,88.4,63.0,D,1,average,Moderate,1.0,1.0,1,0.15498369818351188
+129,Female,2.6,84.2,6.6,High School,Yes,No,Yes,68.7,81.1,B,0,excellent,Healthy,0.9000000000000004,1.0,1,0.30891942244993015
+130,Female,4.6,83.8,7.2,High School,Yes,Yes,No,73.6,87.1,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7270222015215029
+131,Female,4.3,100.0,6.9,High School,Yes,No,Yes,80.0,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,1,0.5
+132,Male,2.0,91.3,4.1,,Yes,Yes,No,62.4,75.7,C,0,average,Healthy,3.4000000000000004,3.0,0,0.668296848315479
+133,Male,3.6,74.8,6.5,Bachelors,No,Yes,No,80.4,77.3,C,0,average,Moderate,1.0,1.0,0,0.6167908709827666
+134,Male,4.6,100.0,5.8,Masters,Yes,Yes,No,37.5,85.6,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.8464912280701755
+135,Male,1.0,97.2,7.0,High School,Yes,Yes,No,61.4,80.8,B,0,excellent,Healthy,0.5,0.0,0,0.6679475236764478
+136,Male,4.3,90.8,10.0,Bachelors,Yes,Yes,No,58.9,94.5,A,0,excellent,Healthy,2.5,2.0,0,0.7654867256637168
+137,Male,2.5,82.7,7.2,High School,No,No,Yes,55.0,59.7,F,1,poor,Healthy,0.2999999999999998,0.0,0,0.2934715106349946
+138,Male,4.4,75.4,6.4,High School,Yes,No,No,67.4,80.9,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.32297003570874094
+139,Male,2.4,81.3,7.9,High School,Yes,Yes,No,74.6,82.6,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.612094395280236
+140,Male,0.8,95.9,7.4,Masters,Yes,No,No,78.4,80.2,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.31625523986958554
+141,Female,1.1,100.0,7.3,Masters,Yes,No,Yes,72.9,82.4,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.35964912280701755
+142,Male,3.6,100.0,7.5,Bachelors,Yes,No,No,62.0,75.9,C,0,average,Healthy,0.0,0.0,0,0.4692982456140351
+143,Female,3.9,80.1,9.3,Bachelors,Yes,No,Yes,74.4,88.5,B,0,excellent,Healthy,1.8000000000000007,2.0,0,0.33570097810898925
+144,Female,2.1,73.8,5.4,,Yes,Yes,Yes,71.5,69.6,D,1,average,Moderate,2.0999999999999996,2.0,1,0.5436267660301195
+145,Female,4.5,86.4,7.4,High School,Yes,No,Yes,81.2,86.8,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.40847694457382405
+146,Male,1.0,67.3,5.7,High School,Yes,No,No,79.3,65.2,D,1,average,Moderate,1.7999999999999998,2.0,0,0.11411271541686073
+147,Male,3.4,88.2,7.5,High School,Yes,No,Yes,70.4,82.0,B,0,excellent,Healthy,0.0,0.0,0,0.3735056668219221
+148,Male,1.7,83.5,5.7,Masters,Yes,Yes,Yes,59.2,46.8,F,1,poor,Healthy,1.7999999999999998,2.0,1,0.5976168296848315
+149,Male,2.5,80.3,6.3,,Yes,Yes,Yes,62.2,68.6,D,1,average,Healthy,1.2000000000000002,1.0,1,0.6091057289240801
+150,Female,3.6,69.1,6.4,High School,Yes,Yes,Yes,63.4,69.2,D,1,average,Moderate,1.0999999999999996,1.0,1,0.5747554727526781
+151,Male,2.2,90.1,8.0,PhD,Yes,Yes,No,66.2,84.7,B,0,excellent,Healthy,0.5,0.0,0,0.6682192206179165
+152,Male,2.9,79.7,7.9,Masters,Yes,Yes,Yes,73.2,75.9,C,0,average,Healthy,0.40000000000000036,0.0,0,0.622224809812141
+153,Male,5.0,73.3,5.3,High School,Yes,No,Yes,78.6,84.7,B,0,excellent,Moderate,2.2,2.0,1,0.3337990995187083
+154,Male,2.6,56.3,6.9,Bachelors,No,Yes,No,69.4,75.7,C,0,average,Critical,0.5999999999999996,1.0,0,0.43650054339388294
+155,Male,4.8,84.7,5.9,Bachelors,Yes,No,No,70.2,95.4,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.40909796615432387
+156,Female,1.8,100.0,5.3,,Yes,Yes,No,71.7,87.6,B,0,excellent,Healthy,2.2,2.0,0,0.7236842105263158
+157,Male,4.3,100.0,6.5,High School,Yes,No,No,63.8,87.7,B,0,excellent,Healthy,1.0,1.0,0,0.5
+158,Female,5.7,80.4,6.4,Masters,Yes,Yes,Yes,58.9,89.3,B,0,excellent,Healthy,1.0999999999999996,1.0,1,0.7501940692439062
+159,Male,0.5,79.0,9.7,High School,Yes,Yes,No,48.9,63.7,D,1,average,Healthy,2.1999999999999993,2.0,0,0.5117994100294986
+160,Female,2.3,89.7,7.3,Masters,Yes,No,Yes,61.7,74.0,C,0,average,Healthy,0.20000000000000018,0.0,0,0.3363219996894892
+161,Male,4.4,75.0,5.1,Bachelors,Yes,No,No,75.7,87.9,B,0,excellent,Healthy,2.4000000000000004,2.0,0,0.32002018320136627
+162,Male,3.2,88.0,6.1,Bachelors,Yes,No,No,61.6,76.6,C,0,average,Healthy,1.4000000000000004,1.0,0,0.3632588107436734
+163,Female,4.1,92.7,8.0,Masters,Yes,Yes,Yes,67.1,97.3,A,0,excellent,Healthy,0.5,0.0,0,0.7707265952491849
+164,Female,2.6,97.3,9.3,Masters,Yes,Yes,No,75.6,90.2,A,0,excellent,Healthy,1.8000000000000007,2.0,0,0.7388604253997827
+165,Female,3.6,84.0,4.9,PhD,Yes,No,No,76.2,88.7,B,0,excellent,Healthy,2.5999999999999996,3.0,0,0.3513041453190498
+166,Male,3.3,83.0,4.5,High School,Yes,Yes,No,57.0,84.8,B,0,excellent,Healthy,3.0,3.0,0,0.6641049526471045
+167,Female,5.3,76.2,9.0,Masters,Yes,No,No,82.0,100.0,A,0,excellent,Healthy,1.5,2.0,0,0.36834342493401645
+168,Male,3.9,76.7,7.3,High School,Yes,Yes,No,83.5,82.1,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.6439605651296383
+169,Male,4.0,82.7,5.8,Bachelors,No,Yes,Yes,56.4,75.1,C,0,average,Healthy,1.7000000000000002,2.0,1,0.6925943176525385
+170,Female,2.9,88.7,7.4,Bachelors,No,Yes,Yes,60.1,78.1,C,0,average,Healthy,0.09999999999999964,0.0,0,0.6885964912280702
+171,Female,2.8,94.1,3.6,Bachelors,Yes,Yes,No,84.3,92.9,A,0,excellent,Healthy,3.9,4.0,0,0.724033535165347
+172,Male,2.9,77.0,6.8,Bachelors,Yes,No,No,68.2,71.8,C,0,average,Healthy,0.7000000000000002,1.0,0,0.2689799720540289
+173,Male,4.1,99.9,7.2,,Yes,No,No,43.4,78.5,C,0,average,Healthy,0.2999999999999998,0.0,0,0.490490607048595
+174,Female,2.9,82.3,7.9,High School,Yes,Yes,No,53.2,82.6,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.641398851110076
+175,Female,3.9,84.8,5.6,Masters,Yes,No,No,67.0,79.2,C,0,average,Healthy,1.9000000000000004,2.0,0,0.3703617450706412
+176,Female,6.6,77.5,6.9,Bachelors,Yes,Yes,No,56.0,89.7,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7682813227759665
+177,Male,4.8,60.8,5.7,High School,Yes,Yes,No,65.0,89.2,B,0,excellent,Moderate,1.7999999999999998,2.0,0,0.566177612172023
+178,Male,3.0,93.8,7.1,High School,No,Yes,No,70.4,81.7,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7305930756093774
+179,Male,5.3,92.4,5.7,,Yes,No,No,87.5,96.7,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.4878124514826891
+180,Male,2.9,82.2,6.3,PhD,Yes,No,No,66.5,73.7,C,0,average,Healthy,1.2000000000000002,1.0,0,0.3073280546498991
+181,Male,0.5,85.7,5.6,,Yes,No,No,82.9,77.1,C,0,average,Healthy,1.9000000000000004,2.0,0,0.22787610619469031
+182,Male,2.0,90.2,7.6,,Yes,No,Yes,87.1,76.5,C,0,average,Healthy,0.09999999999999964,0.0,0,0.3268514205868654
+183,Female,0.7,69.4,7.8,High School,Yes,No,No,87.2,73.2,C,0,average,Moderate,0.2999999999999998,0.0,0,0.11644154634373549
+184,Male,3.0,79.7,6.5,Bachelors,Yes,No,No,73.4,83.6,B,0,excellent,Healthy,1.0,1.0,0,0.2932774413910884
+185,Male,3.5,92.9,6.8,Masters,Yes,No,No,46.4,85.8,B,0,excellent,Healthy,0.7000000000000002,1.0,0,0.41255239869585475
+186,Male,6.0,72.5,5.1,Bachelors,Yes,No,No,75.5,95.7,A,0,excellent,Moderate,2.4000000000000004,2.0,0,0.3717590436267661
+187,Female,4.0,87.9,6.4,Bachelors,Yes,Yes,No,82.6,89.2,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7309424002484087
+188,Male,3.2,71.4,6.7,Bachelors,Yes,Yes,Yes,69.0,83.1,B,0,excellent,Moderate,0.7999999999999998,1.0,1,0.5741732650209596
+189,Male,4.7,89.7,9.9,Bachelors,Yes,Yes,No,90.9,100.0,A,0,excellent,Healthy,2.4000000000000004,2.0,0,0.7749184909175595
+190,Female,0.5,84.6,5.5,Bachelors,Yes,Yes,No,80.3,67.2,D,1,average,Healthy,2.0,2.0,0,0.5530973451327433
+191,Male,3.9,68.8,8.6,High School,Yes,No,No,76.8,84.6,B,0,excellent,Moderate,1.0999999999999996,1.0,0,0.25236764477565593
+192,Male,4.7,96.6,8.0,Bachelors,Yes,Yes,Yes,83.0,100.0,A,0,excellent,Healthy,0.5,0.0,0,0.8258034466697718
+193,Male,1.3,77.7,7.1,Bachelors,Yes,No,No,74.0,75.2,C,0,average,Healthy,0.40000000000000036,0.0,0,0.20396677534544327
+194,Male,5.2,76.9,8.9,Bachelors,Yes,Yes,No,40.1,81.1,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7024530352429746
+195,Male,4.0,87.0,7.2,High School,Yes,Yes,No,64.0,96.5,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7243052321068157
+196,Female,2.9,96.5,7.3,Masters,No,Yes,No,84.4,79.8,C,0,average,Healthy,0.20000000000000018,0.0,0,0.7461186151218756
+197,Female,4.4,74.8,6.7,High School,Yes,No,No,60.3,73.4,C,0,average,Moderate,0.7999999999999998,1.0,0,0.31854525694767893
+198,Female,6.9,85.6,8.3,Bachelors,Yes,Yes,No,67.3,92.2,A,0,excellent,Healthy,0.8000000000000007,1.0,0,0.8411737307871449
+199,Male,3.8,89.3,8.1,Masters,Yes,Yes,No,57.5,87.3,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7324949541996584
+200,Male,3.9,91.9,6.0,Bachelors,No,No,No,91.4,92.5,A,0,excellent,Healthy,1.5,2.0,0,0.422721627076541
+201,Male,2.8,86.8,5.2,High School,Yes,No,Yes,90.2,94.6,A,0,excellent,Healthy,2.3,2.0,1,0.3368653935724266
+202,Female,2.2,81.3,6.6,Masters,Yes,Yes,No,59.4,75.5,C,0,average,Healthy,0.9000000000000004,1.0,0,0.6033224654556746
+203,Male,4.7,76.7,5.8,Bachelors,Yes,Yes,No,71.8,85.3,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.6790482844278839
+204,Male,2.2,85.9,6.7,Masters,Yes,Yes,No,61.8,76.7,C,0,average,Healthy,0.7999999999999998,1.0,0,0.6372457692904829
+205,Female,3.6,74.3,8.3,Masters,Yes,No,No,77.4,86.8,B,0,excellent,Moderate,0.8000000000000007,1.0,0,0.279770222015215
+206,Male,2.8,55.8,6.3,Bachelors,Yes,Yes,Yes,76.1,61.1,D,1,average,Critical,1.2000000000000002,1.0,1,0.441585157584226
+207,Female,4.2,89.4,6.7,Bachelors,Yes,Yes,Yes,79.7,100.0,A,0,excellent,Healthy,0.7999999999999998,1.0,1,0.7507762769756251
+208,Female,4.0,94.0,6.9,High School,No,Yes,No,74.0,90.9,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7759276509858717
+209,Female,5.1,61.4,7.8,High School,Yes,Yes,Yes,100.0,96.1,A,0,excellent,Moderate,0.2999999999999998,0.0,0,0.583760285669927
+210,Male,2.7,74.9,4.1,Bachelors,Yes,No,No,57.7,73.1,C,0,average,Moderate,3.4000000000000004,3.0,0,0.2447213165657507
+211,Male,3.1,91.2,6.1,Bachelors,Yes,Yes,No,49.5,81.2,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7158049992237231
+212,Male,2.0,100.0,7.1,Bachelors,Yes,Yes,No,65.3,81.8,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7324561403508772
+213,Male,2.8,85.2,8.2,High School,Yes,Yes,Yes,51.2,70.0,C,0,average,Healthy,0.6999999999999993,1.0,0,0.6583993168762615
+214,Male,4.1,77.7,6.2,High School,Yes,Yes,Yes,52.1,78.5,C,0,average,Healthy,1.2999999999999998,1.0,1,0.6601071262226362
+215,Male,4.6,83.2,4.5,Bachelors,Yes,Yes,No,58.0,84.7,B,0,excellent,Healthy,3.0,3.0,0,0.7225974227604409
+216,Male,2.1,98.7,7.5,High School,Yes,No,No,58.9,74.7,C,0,average,Healthy,0.0,0.0,0,0.39392175128085705
+217,Female,4.8,78.5,6.0,Masters,Yes,No,No,58.5,91.2,A,0,excellent,Healthy,1.5,2.0,0,0.36337525229001705
+218,Male,5.5,77.0,5.4,High School,Yes,No,No,76.2,93.4,A,0,excellent,Healthy,2.0999999999999996,2.0,0,0.3830150597733271
+219,Female,4.1,80.2,6.1,Bachelors,Yes,No,No,63.9,86.8,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.34521037106039437
+220,Male,6.3,75.5,6.6,,Yes,No,No,67.8,100.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.4070408321689179
+221,Male,2.3,86.2,6.1,High School,Yes,Yes,No,80.7,84.3,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.6438441235832945
+222,Male,1.6,100.0,4.2,Bachelors,No,No,No,60.8,71.5,C,0,average,Healthy,3.3,3.0,0,0.3815789473684211
+223,Female,0.8,88.2,7.9,High School,No,No,Yes,66.8,70.5,C,0,average,Healthy,0.40000000000000036,0.0,0,0.25947057910262383
+224,Female,5.7,82.5,8.3,Bachelors,Yes,No,Yes,74.4,89.9,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.4323474615742897
+225,Female,4.5,82.1,7.6,Bachelors,Yes,Yes,No,46.7,81.1,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7100993634528799
+226,Female,3.4,69.4,5.4,Bachelors,Yes,Yes,No,41.4,67.4,D,1,average,Moderate,2.0999999999999996,2.0,0,0.5681959323086477
+227,Male,3.9,93.8,6.6,Bachelors,Yes,No,Yes,74.2,82.2,B,0,excellent,Healthy,0.9000000000000004,1.0,1,0.4367334264865704
+228,Female,1.8,84.2,6.8,PhD,Yes,No,Yes,75.9,90.0,A,0,excellent,Healthy,0.7000000000000002,1.0,1,0.27383170315168454
+229,Male,7.2,83.2,7.5,High School,Yes,No,No,94.8,100.0,A,0,excellent,Healthy,0.0,0.0,0,0.5032991771464058
+230,Male,3.7,100.0,7.6,High School,Yes,Yes,Yes,71.9,82.7,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.8070175438596491
+231,Female,3.7,88.0,5.9,PhD,Yes,Yes,No,79.8,98.3,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.7185219686384102
+232,Female,4.6,77.5,6.9,Bachelors,Yes,Yes,No,67.7,91.5,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.6805620245303524
+233,Female,4.2,80.7,7.3,PhD,Yes,No,No,73.6,82.2,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.3532836516068934
+234,Female,3.8,96.5,8.5,Bachelors,Yes,Yes,No,90.0,100.0,A,0,excellent,Healthy,1.0,1.0,0,0.7855922993324018
+235,Female,2.3,86.1,7.6,Masters,Yes,Yes,No,44.5,80.2,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6431066604564508
+236,Female,4.2,70.6,7.7,Bachelors,Yes,No,No,75.0,85.7,B,0,excellent,Moderate,0.20000000000000018,0.0,0,0.27879987579568394
+237,Female,6.3,94.2,6.9,Masters,Yes,Yes,No,95.6,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.8782797702220152
+238,Female,5.5,78.3,8.5,,Yes,No,No,73.4,84.4,B,0,excellent,Healthy,1.0,1.0,0,0.3926020804222947
+239,Male,5.9,100.0,7.3,Bachelors,Yes,Yes,No,89.8,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.9035087719298246
+240,Female,2.7,95.8,5.8,High School,Yes,No,Yes,62.4,84.6,B,0,excellent,Healthy,1.7000000000000002,2.0,1,0.39885111007607515
+241,Female,2.0,80.5,8.5,High School,Yes,No,Yes,69.6,80.6,B,0,excellent,Healthy,1.0,1.0,0,0.2553174972830306
+242,Male,3.3,97.8,7.6,High School,Yes,No,Yes,70.4,85.1,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.4399161620866325
+243,Female,3.6,85.7,6.3,High School,Yes,No,Yes,43.4,69.4,D,1,average,Healthy,1.2000000000000002,1.0,1,0.363841018475392
+244,Male,5.1,93.5,6.2,High School,Yes,Yes,No,56.0,92.2,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.8204859493867412
+245,Male,1.0,89.8,7.2,Bachelors,Yes,Yes,No,56.8,76.2,C,0,average,Healthy,0.2999999999999998,0.0,0,0.613375252290017
+246,Female,5.8,76.5,7.4,Bachelors,Yes,Yes,No,79.9,100.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7258189722092844
+247,Male,3.3,78.6,7.0,Bachelors,Yes,No,No,80.5,92.2,A,0,excellent,Healthy,0.5,0.0,0,0.2983232417326502
+248,Male,2.9,95.3,7.2,Bachelors,No,No,No,73.9,76.5,C,0,average,Healthy,0.2999999999999998,0.0,0,0.4039357242664183
+249,Male,2.0,81.7,8.8,High School,Yes,Yes,No,79.9,82.7,B,0,excellent,Healthy,1.3000000000000007,1.0,0,0.5975003881384878
+250,Male,1.0,81.0,8.1,High School,Yes,No,No,68.0,67.1,D,1,average,Healthy,0.5999999999999996,1.0,0,0.21514516379444185
+251,Female,4.7,75.4,7.0,High School,Yes,Yes,Yes,84.4,88.4,B,0,excellent,Healthy,0.5,0.0,0,0.6694612637789165
+252,Male,3.6,89.2,7.9,Bachelors,Yes,No,Yes,70.1,91.0,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.3896522279149201
+253,Female,1.6,100.0,5.6,High School,No,No,No,70.7,75.8,C,0,average,Healthy,1.9000000000000004,2.0,0,0.3815789473684211
+254,Male,1.6,74.3,7.3,High School,Yes,Yes,No,66.8,88.3,B,0,excellent,Moderate,0.20000000000000018,0.0,0,0.5253842571029343
+255,Male,3.0,85.2,9.0,Bachelors,Yes,Yes,Yes,78.2,87.6,B,0,excellent,Healthy,1.5,2.0,0,0.667171246700823
+256,Male,6.0,99.1,6.5,Masters,Yes,Yes,Yes,64.9,96.8,A,0,excellent,Healthy,1.0,1.0,1,0.9012575687005123
+257,Male,3.1,84.2,5.8,High School,Yes,No,No,81.7,86.7,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.3308492470113337
+258,Female,1.2,89.5,6.0,Bachelors,Yes,Yes,Yes,56.4,63.7,D,1,average,Healthy,1.5,2.0,1,0.6199347927340475
+259,Female,3.1,74.4,5.5,Masters,Yes,Yes,No,56.8,73.0,C,0,average,Moderate,2.0,2.0,0,0.5919111939139886
+260,Male,3.1,89.3,5.9,Masters,Yes,Yes,No,78.2,94.3,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.7017931998136935
+261,Male,0.5,83.1,6.4,,Yes,Yes,No,68.9,71.3,C,0,average,Healthy,1.0999999999999996,1.0,0,0.5420353982300884
+262,Female,3.4,94.9,5.1,High School,Yes,Yes,No,64.6,79.7,C,0,average,Healthy,2.4000000000000004,2.0,0,0.7562490296537806
+263,Male,3.2,96.9,6.8,High School,No,No,No,80.7,81.2,B,0,excellent,Healthy,0.7000000000000002,1.0,0,0.428893029032759
+264,Male,4.5,100.0,7.9,PhD,Yes,Yes,No,62.7,91.1,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.8421052631578947
+265,Male,6.3,90.8,5.7,Bachelors,Yes,No,No,67.6,97.5,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.5198726905759975
+266,Female,5.2,88.3,8.6,Bachelors,Yes,No,No,86.8,100.0,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.45319049836981834
+267,Female,3.1,86.9,7.4,Masters,Yes,Yes,Yes,88.5,81.6,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6840940847694458
+268,Female,1.8,81.5,8.0,Masters,Yes,Yes,No,88.9,83.9,B,0,excellent,Healthy,0.5,0.0,0,0.5872535320602391
+269,Male,7.4,88.4,6.0,,Yes,No,No,66.6,100.0,A,0,excellent,Healthy,1.5,2.0,0,0.5504191895668376
+270,Male,3.6,82.0,7.8,,Yes,No,No,84.8,80.2,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.3365548827821767
+271,Female,3.5,86.7,5.5,Masters,Yes,Yes,No,58.6,75.1,C,0,average,Healthy,2.0,2.0,0,0.7001630181648814
+272,Female,3.5,98.2,7.9,High School,No,Yes,No,59.1,78.2,C,0,average,Healthy,0.40000000000000036,0.0,0,0.7849712777519019
+273,Female,3.8,74.9,7.0,PhD,Yes,Yes,Yes,41.8,64.7,D,1,average,Moderate,0.5,0.0,0,0.6263002639341718
+274,Female,3.3,96.4,7.5,High School,Yes,No,No,90.1,97.8,A,0,excellent,Healthy,0.0,0.0,0,0.42959167831082135
+275,Male,2.6,98.2,5.4,High School,No,Yes,No,59.6,74.4,C,0,average,Healthy,2.0999999999999996,2.0,0,0.7454975935413756
+276,Female,2.7,83.8,5.7,PhD,Yes,Yes,No,68.5,76.4,C,0,average,Healthy,1.7999999999999998,2.0,0,0.6436888681881695
+277,Male,3.5,63.8,7.5,High School,Yes,No,No,59.1,76.3,C,0,average,Moderate,0.0,0.0,0,0.19795062878435024
+278,Female,2.7,78.9,5.7,High School,Yes,No,Yes,78.3,88.3,B,0,excellent,Healthy,1.7999999999999998,2.0,1,0.27421984163949703
+279,Male,2.4,98.0,7.4,High School,Yes,Yes,No,65.5,94.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7352507374631269
+280,Female,3.7,84.8,5.2,PhD,No,Yes,Yes,54.3,58.8,F,1,poor,Healthy,2.3,2.0,1,0.6949231485794131
+281,Female,3.1,75.0,7.8,Bachelors,No,No,No,75.3,81.1,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.26300263934171714
+282,Female,5.8,80.0,5.3,Masters,Yes,Yes,No,52.8,84.5,B,0,excellent,Healthy,2.2,2.0,0,0.7516301816488123
+283,Female,0.5,93.4,7.5,High School,Yes,Yes,Yes,60.0,69.9,D,1,average,Healthy,0.0,0.0,0,0.6179941002949852
+284,Male,5.1,90.5,7.6,Masters,Yes,No,No,44.7,82.2,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.46502872224809816
+285,Female,5.4,82.6,6.0,Masters,Yes,Yes,Yes,52.9,83.3,B,0,excellent,Healthy,1.5,2.0,1,0.7532603632976246
+286,Male,0.5,81.3,7.5,High School,Yes,No,Yes,72.1,69.5,D,1,average,Healthy,0.0,0.0,0,0.1954277286135693
+287,Male,3.0,81.1,7.1,Bachelors,Yes,No,No,46.4,68.5,D,1,average,Healthy,0.40000000000000036,0.0,0,0.3036019251668995
+288,Male,2.9,75.8,6.2,High School,No,Yes,No,52.2,61.5,D,1,average,Healthy,1.2999999999999998,1.0,0,0.5934637478652384
+289,Male,1.4,100.0,5.6,,No,Yes,No,70.0,72.3,C,0,average,Healthy,1.9000000000000004,2.0,0,0.706140350877193
+290,Female,2.3,81.8,4.4,Bachelors,Yes,No,No,63.5,74.1,C,0,average,Healthy,3.0999999999999996,3.0,0,0.2780624126688402
+291,Male,1.8,97.2,7.2,,Yes,No,No,93.9,94.9,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.36970190964136007
+292,Male,6.1,100.0,4.9,High School,Yes,No,No,92.0,100.0,A,0,excellent,Healthy,2.5999999999999996,3.0,0,0.5789473684210527
+293,Male,4.9,95.0,6.9,Masters,Yes,No,Yes,59.6,84.5,B,0,excellent,Healthy,0.5999999999999996,1.0,1,0.4894426331315014
+294,Female,5.4,80.7,6.5,Masters,Yes,Yes,Yes,76.7,93.7,A,0,excellent,Healthy,1.0,1.0,1,0.7392485638875952
+295,Female,4.6,89.0,7.6,Masters,Yes,No,No,79.0,100.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.43203695078403975
+296,Female,1.8,84.8,6.4,,Yes,Yes,No,62.8,81.6,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.6115898152460798
+297,Female,2.7,76.0,6.4,Bachelors,Yes,Yes,No,52.1,70.9,C,0,average,Healthy,1.0999999999999996,1.0,0,0.5861667442943642
+298,Male,4.2,88.2,7.7,High School,Yes,Yes,No,69.9,89.6,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7419267194535011
+299,Male,1.7,73.2,7.2,Masters,No,Yes,No,67.9,69.2,D,1,average,Moderate,0.2999999999999998,0.0,0,0.5216581276199348
+300,Female,4.6,96.9,7.2,Masters,Yes,No,Yes,64.8,82.3,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.4902965378046888
+301,Male,3.1,80.4,7.4,Bachelors,Yes,Yes,Yes,75.3,80.9,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.636158981524608
+302,Male,2.9,87.0,5.0,High School,Yes,Yes,No,61.0,82.4,B,0,excellent,Healthy,2.5,2.0,0,0.676059618071728
+303,Male,4.6,87.8,7.7,Bachelors,Yes,Yes,No,56.2,91.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7565207265952493
+304,Female,4.2,82.4,7.5,High School,No,No,No,71.3,81.6,B,0,excellent,Healthy,0.0,0.0,0,0.3658205247632356
+305,Female,3.0,90.9,5.6,Bachelors,Yes,No,Yes,74.6,83.2,B,0,excellent,Healthy,1.9000000000000004,2.0,1,0.3758733115975781
+306,Male,5.2,80.3,6.5,Bachelors,Yes,Yes,No,55.9,80.7,B,0,excellent,Healthy,1.0,1.0,0,0.7275267815556591
+307,Female,1.9,93.7,6.8,Masters,Yes,Yes,Yes,81.1,87.2,B,0,excellent,Healthy,0.7000000000000002,1.0,1,0.6816099984474461
+308,Female,4.4,71.5,6.6,High School,Yes,Yes,Yes,48.8,72.8,C,0,average,Moderate,0.9000000000000004,1.0,1,0.6275423070951716
+309,Female,4.4,86.3,7.2,Bachelors,Yes,No,No,63.1,85.2,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.40335351653469953
+310,Female,3.0,100.0,8.5,High School,Yes,No,Yes,66.9,83.3,B,0,excellent,Healthy,1.0,1.0,0,0.44298245614035087
+311,Female,4.0,75.0,8.1,High School,Yes,Yes,No,62.4,82.6,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.6358096568855768
+312,Male,1.6,78.2,5.2,Masters,Yes,No,Yes,63.2,63.4,D,1,average,Healthy,2.3,2.0,1,0.2208119857165037
+313,Female,4.9,90.1,7.5,,Yes,Yes,No,92.5,100.0,A,0,excellent,Healthy,0.0,0.0,0,0.7866402732494954
+314,Male,3.2,86.8,8.4,Bachelors,Yes,No,No,59.8,79.4,C,0,average,Healthy,0.9000000000000004,1.0,0,0.3544092532215495
+315,Male,2.7,88.5,7.3,Masters,Yes,Yes,No,99.3,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.6783496351498215
+316,Female,5.1,89.9,8.1,PhD,Yes,Yes,No,75.2,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7939372768203695
+317,Male,2.4,91.3,9.2,Masters,No,Yes,Yes,71.1,72.9,C,0,average,Healthy,1.6999999999999993,2.0,0,0.6858407079646017
+318,Male,1.4,96.1,8.0,High School,No,Yes,No,75.7,79.2,C,0,average,Healthy,0.5,0.0,0,0.6773792889302902
+319,Male,1.2,89.1,7.1,,Yes,No,No,100.0,84.2,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.2836516068933395
+320,Female,4.4,82.6,8.1,Bachelors,Yes,Yes,Yes,58.1,80.7,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7094007141748175
+321,Female,1.6,91.7,7.0,High School,Yes,No,No,56.6,85.3,B,0,excellent,Healthy,0.5,0.0,0,0.32036950784039747
+322,Male,6.1,100.0,6.8,High School,Yes,No,Yes,60.9,93.1,A,0,excellent,Healthy,0.7000000000000002,1.0,1,0.5789473684210527
+323,Female,0.5,83.7,6.4,Bachelors,Yes,Yes,No,70.4,73.5,C,0,average,Healthy,1.0999999999999996,1.0,0,0.5464601769911505
+324,Female,6.0,75.3,8.7,High School,Yes,Yes,No,49.3,90.8,A,0,excellent,Healthy,1.1999999999999993,1.0,0,0.7257413445117219
+325,Female,3.8,96.1,5.8,High School,Yes,Yes,Yes,70.3,80.8,B,0,excellent,Healthy,1.7000000000000002,2.0,1,0.7826424468250271
+326,Female,3.4,83.8,8.6,High School,Yes,No,No,90.3,88.9,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.3410572892408011
+327,Male,2.7,63.3,7.4,Masters,No,Yes,No,71.8,63.7,D,1,average,Moderate,0.09999999999999964,0.0,0,0.49250892718521966
+328,Male,4.1,93.5,5.1,PhD,Yes,Yes,No,66.5,82.6,B,0,excellent,Healthy,2.4000000000000004,2.0,0,0.7766263002639343
+329,Female,3.4,79.6,7.2,High School,Yes,Yes,No,62.6,63.7,D,1,average,Healthy,0.2999999999999998,0.0,0,0.6434171712467008
+330,Female,5.2,84.1,4.3,PhD,Yes,No,No,80.8,96.6,A,0,excellent,Healthy,3.2,3.0,0,0.42221704704238466
+331,Male,3.7,88.3,7.6,PhD,Yes,Yes,No,60.1,97.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7207343580189413
+332,Male,3.7,86.9,7.9,Masters,No,Yes,No,92.2,93.3,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7104098742431301
+333,Female,3.0,92.1,6.1,High School,Yes,Yes,Yes,93.2,82.8,B,0,excellent,Healthy,1.4000000000000004,1.0,1,0.7180562024530351
+334,Male,3.4,80.6,6.9,Masters,Yes,Yes,No,73.1,81.2,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.6507918025151374
+335,Female,4.0,90.1,9.1,,Yes,No,No,69.9,88.7,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.4138332557056357
+336,Female,0.9,82.4,6.2,Masters,Yes,Yes,No,82.4,71.2,C,0,average,Healthy,1.2999999999999998,1.0,0,0.5544170159913058
+337,Male,1.5,92.4,5.5,High School,Yes,No,No,83.1,87.1,B,0,excellent,Healthy,2.0,2.0,0,0.3211457848160224
+338,Male,4.6,91.2,8.6,Bachelors,Yes,No,No,60.3,94.9,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.4482611395746002
+339,Female,3.8,75.6,9.2,Bachelors,Yes,No,No,63.7,76.1,C,0,average,Healthy,1.6999999999999993,2.0,0,0.298129172488744
+340,Female,3.2,95.9,6.8,Bachelors,Yes,No,No,54.1,85.1,B,0,excellent,Healthy,0.7000000000000002,1.0,0,0.4215183977643224
+341,Male,3.5,79.6,8.0,High School,Yes,Yes,No,74.9,96.3,A,0,excellent,Healthy,0.5,0.0,0,0.6478031361589814
+342,Female,4.0,93.1,8.4,High School,Yes,Yes,No,78.0,100.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.7692904828442787
+343,Male,2.7,88.7,5.9,Masters,Yes,No,No,53.8,92.0,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.3464912280701755
+344,Female,2.3,100.0,6.2,PhD,Yes,Yes,No,64.5,77.2,C,0,average,Healthy,1.2999999999999998,1.0,0,0.7456140350877193
+345,Male,3.8,82.8,8.3,High School,Yes,No,No,53.8,97.5,A,0,excellent,Healthy,0.8000000000000007,1.0,0,0.3512265176214873
+346,Male,2.0,81.5,8.8,,Yes,Yes,Yes,59.2,70.6,C,0,average,Healthy,1.3000000000000007,1.0,0,0.5960254618848005
+347,Male,4.1,84.8,7.5,High School,Yes,No,No,76.6,87.2,B,0,excellent,Healthy,0.0,0.0,0,0.37913367489520255
+348,Female,0.9,82.0,5.7,Masters,Yes,No,No,61.2,69.0,D,1,average,Healthy,1.7999999999999998,2.0,0,0.21813383015059776
+349,Female,5.0,93.0,9.2,Masters,Yes,Yes,Yes,66.4,90.2,A,0,excellent,Healthy,1.6999999999999993,2.0,0,0.8124126688402423
+350,Male,4.2,68.8,6.2,Masters,Yes,Yes,Yes,50.5,74.0,C,0,average,Moderate,1.2999999999999998,1.0,1,0.5988588728458314
+351,Female,3.9,74.5,6.4,,Yes,No,No,72.2,75.3,C,0,average,Moderate,1.0999999999999996,1.0,0,0.29440304300574444
+352,Male,5.0,74.3,7.2,High School,Yes,No,No,69.5,86.5,B,0,excellent,Moderate,0.2999999999999998,0.0,0,0.3411737307871448
+353,Male,6.0,94.5,8.7,PhD,Yes,Yes,No,61.3,100.0,A,0,excellent,Healthy,1.1999999999999993,1.0,0,0.8673342648657041
+354,Female,5.0,100.0,7.8,High School,Yes,No,Yes,67.7,93.6,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.5307017543859649
+355,Female,0.7,84.0,7.3,Masters,Yes,Yes,Yes,72.2,72.0,C,0,average,Healthy,0.20000000000000018,0.0,0,0.5574444961962428
+356,Male,1.6,83.3,7.4,Masters,Yes,Yes,No,60.2,76.2,C,0,average,Healthy,0.09999999999999964,0.0,0,0.5917559385188635
+357,Female,2.6,85.7,6.9,Masters,Yes,No,No,52.3,80.9,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.31998136935258503
+358,Female,3.5,96.6,7.5,High School,Yes,No,Yes,91.7,85.3,B,0,excellent,Healthy,0.0,0.0,0,0.43983853438907
+359,Male,4.3,75.7,3.8,PhD,Yes,No,No,62.4,81.9,B,0,excellent,Healthy,3.7,4.0,0,0.3207964601769912
+360,Male,2.4,87.4,6.4,High School,Yes,No,No,68.8,78.0,C,0,average,Healthy,1.0999999999999996,1.0,0,0.3237463126843658
+361,Female,3.8,94.8,7.1,High School,Yes,Yes,Yes,82.1,93.6,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7730554261760596
+362,Male,2.4,90.0,5.4,Masters,Yes,No,Yes,100.0,95.1,A,0,excellent,Healthy,2.0999999999999996,2.0,1,0.34292035398230086
+363,Male,2.6,86.9,7.3,Bachelors,Yes,Yes,Yes,55.1,66.7,D,1,average,Healthy,0.20000000000000018,0.0,0,0.6621642602080423
+364,Female,1.4,95.0,6.6,Masters,Yes,Yes,No,75.4,75.6,C,0,average,Healthy,0.9000000000000004,1.0,0,0.66926719453501
+365,Male,2.1,58.0,8.9,Bachelors,Yes,Yes,No,61.5,57.4,F,1,poor,Critical,1.4000000000000004,1.0,0,0.42710759198882164
+366,Male,1.5,91.8,8.7,High School,Yes,Yes,No,63.5,75.4,C,0,average,Healthy,1.1999999999999993,1.0,0,0.6500543393882937
+367,Female,2.0,78.5,6.2,Masters,Yes,Yes,No,61.4,80.5,B,0,excellent,Healthy,1.2999999999999998,1.0,0,0.5739015680794908
+368,Female,5.1,66.7,6.6,Bachelors,No,Yes,No,56.5,75.1,C,0,average,Moderate,0.9000000000000004,1.0,0,0.6228458313926409
+369,Male,2.1,90.1,6.7,High School,No,Yes,No,69.5,67.8,D,1,average,Healthy,0.7999999999999998,1.0,0,0.6638332557056358
+370,Male,7.4,98.7,6.3,Masters,Yes,Yes,No,52.3,97.4,A,0,excellent,Healthy,1.2000000000000002,1.0,0,0.9597112249650676
+371,Female,4.2,83.6,7.0,Bachelors,Yes,No,Yes,81.4,80.2,B,0,excellent,Healthy,0.5,0.0,0,0.3746700822853594
+372,Female,3.8,94.5,5.9,Bachelors,Yes,Yes,No,70.7,82.8,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.7708430367955286
+373,Female,2.2,100.0,5.4,Bachelors,Yes,Yes,No,75.1,87.8,B,0,excellent,Healthy,2.0999999999999996,2.0,0,0.7412280701754387
+374,Female,4.6,98.1,7.5,Masters,Yes,No,No,64.4,85.8,B,0,excellent,Healthy,0.0,0.0,0,0.4991460953268126
+375,Male,2.6,100.0,7.6,Masters,Yes,No,No,65.6,91.7,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.4254385964912281
+376,Female,3.7,92.4,5.8,Masters,Yes,No,Yes,73.5,84.9,B,0,excellent,Healthy,1.7000000000000002,2.0,1,0.41763701288619787
+377,Female,7.3,85.8,7.9,High School,Yes,Yes,No,56.0,99.3,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.860192516689955
+378,Male,3.4,69.0,6.0,Masters,Yes,No,No,65.7,74.3,C,0,average,Moderate,1.5,2.0,0,0.2319127464679398
+379,Female,5.2,82.5,7.1,Masters,Yes,Yes,No,59.7,93.3,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7437509703462196
+380,Male,2.4,76.6,7.8,Masters,Yes,Yes,No,59.3,79.4,C,0,average,Healthy,0.2999999999999998,0.0,0,0.577433628318584
+381,Female,3.4,100.0,6.8,Bachelors,No,Yes,No,44.7,77.4,C,0,average,Healthy,0.7000000000000002,1.0,0,0.793859649122807
+382,Female,6.2,83.2,7.3,PhD,Yes,No,No,86.1,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.45943952802359894
+383,Female,2.6,86.2,6.2,Masters,Yes,Yes,No,61.8,76.8,C,0,average,Healthy,1.2999999999999998,1.0,0,0.6570020183201367
+384,Male,6.2,90.5,6.6,High School,Yes,Yes,No,84.0,100.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.8466076696165192
+385,Male,4.6,85.4,6.6,Bachelors,No,Yes,No,82.8,88.6,B,0,excellent,Healthy,0.9000000000000004,1.0,0,0.7388216115510015
+386,Female,2.7,100.0,5.9,PhD,Yes,No,No,54.6,79.1,C,0,average,Healthy,1.5999999999999996,2.0,0,0.4298245614035088
+387,Male,4.4,78.8,6.6,High School,Yes,No,No,56.9,79.4,C,0,average,Healthy,0.9000000000000004,1.0,0,0.3480437820214252
+388,Male,5.0,86.9,4.9,,Yes,Yes,No,100.0,100.0,A,0,excellent,Healthy,2.5999999999999996,3.0,0,0.7674274181027791
+389,Male,4.4,77.6,6.2,Masters,Yes,No,Yes,91.0,86.7,B,0,excellent,Healthy,1.2999999999999998,1.0,1,0.33919422449930137
+390,Male,1.1,71.8,6.5,Bachelors,Yes,Yes,Yes,69.6,69.5,D,1,average,Moderate,1.0,1.0,1,0.48501785437043937
+391,Male,2.4,78.9,6.5,High School,Yes,No,No,73.1,86.3,B,0,excellent,Healthy,1.0,1.0,0,0.2610619469026549
+392,Male,3.1,84.6,6.5,High School,Yes,Yes,No,62.4,87.3,B,0,excellent,Healthy,1.0,1.0,0,0.6671324328520415
+393,Female,3.4,80.7,6.7,,No,No,No,75.2,72.1,C,0,average,Healthy,0.7999999999999998,1.0,0,0.3181959323086478
+394,Female,4.4,78.1,7.4,High School,Yes,Yes,No,61.4,92.3,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6762148734668529
+395,Male,3.8,70.9,7.8,Masters,Yes,No,Yes,45.6,67.6,D,1,average,Moderate,0.2999999999999998,0.0,0,0.2634684055270921
+396,Female,1.5,84.2,6.0,Bachelors,Yes,Yes,No,54.1,72.7,C,0,average,Healthy,1.5,2.0,0,0.5940071417481758
+397,Female,4.1,70.0,5.4,High School,Yes,Yes,No,70.3,76.1,C,0,average,Moderate,2.0999999999999996,2.0,0,0.6033224654556746
+398,Female,4.4,92.6,5.5,High School,No,Yes,No,56.4,81.2,B,0,excellent,Healthy,2.0,2.0,0,0.7831470268591834
+399,Female,4.3,85.8,6.2,Bachelors,Yes,Yes,No,69.2,90.4,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.728613569321534
+400,Male,5.1,70.4,6.4,,Yes,Yes,No,57.1,73.2,C,0,average,Moderate,1.0999999999999996,1.0,0,0.6501319670858563
+401,Female,4.8,81.9,5.9,Bachelors,Yes,No,Yes,60.6,85.2,B,0,excellent,Healthy,1.5999999999999996,2.0,1,0.3884489986027015
+402,Female,4.2,77.5,5.2,Bachelors,Yes,Yes,No,80.2,96.4,A,0,excellent,Healthy,2.3,2.0,0,0.6630181648812297
+403,Male,3.4,88.2,6.3,High School,Yes,No,Yes,73.0,81.9,B,0,excellent,Healthy,1.2000000000000002,1.0,1,0.3735056668219221
+404,Male,1.0,98.4,7.0,Bachelors,Yes,No,No,69.9,86.5,B,0,excellent,Healthy,0.5,0.0,0,0.3434637478652384
+405,Female,4.1,66.2,7.5,Bachelors,Yes,No,No,80.5,84.7,B,0,excellent,Moderate,0.0,0.0,0,0.2419655333022823
+406,Female,3.8,86.2,6.1,PhD,Yes,No,No,75.8,93.0,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.37630026393417176
+407,Female,3.9,83.4,6.3,Bachelors,Yes,No,No,87.4,78.9,C,0,average,Healthy,1.2000000000000002,1.0,0,0.36003726129483
+408,Female,1.6,91.7,5.7,Bachelors,Yes,Yes,No,64.5,90.4,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.6537028411737308
+409,Female,1.9,87.1,6.8,High School,No,No,No,64.8,80.1,B,0,excellent,Healthy,0.7000000000000002,1.0,0,0.29960409874243127
+410,Female,5.1,77.5,5.8,,Yes,Yes,Yes,54.4,78.1,C,0,average,Healthy,1.7000000000000002,2.0,1,0.7024918490917559
+411,Male,3.4,81.8,7.5,High School,Yes,No,No,64.9,70.1,C,0,average,Healthy,0.0,0.0,0,0.32630802670392794
+412,Female,4.5,77.0,4.7,High School,Yes,No,No,81.6,90.2,A,0,excellent,Healthy,2.8,3.0,0,0.33915541065052013
+413,Female,3.5,95.8,6.4,Masters,Yes,Yes,No,85.6,86.5,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7672721627076541
+414,Male,3.5,85.2,7.2,Bachelors,Yes,Yes,No,81.5,93.5,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.6891010712622263
+415,Male,4.9,100.0,7.0,Bachelors,No,Yes,Yes,48.5,83.3,B,0,excellent,Healthy,0.5,0.0,0,0.8596491228070176
+416,Male,2.7,84.4,10.0,Bachelors,Yes,No,Yes,83.0,81.2,B,0,excellent,Healthy,2.5,2.0,0,0.3147803136158982
+417,Male,3.6,77.9,7.2,Masters,No,No,No,47.9,76.0,C,0,average,Healthy,0.2999999999999998,0.0,0,0.3063188945815868
+418,Female,2.8,69.9,5.6,High School,Yes,Yes,No,80.8,84.9,B,0,excellent,Moderate,1.9000000000000004,2.0,0,0.5455674584691819
+419,Female,2.8,67.0,6.7,Masters,Yes,No,No,65.6,79.2,C,0,average,Moderate,0.7999999999999998,1.0,0,0.1908476944573824
+420,Female,3.0,69.2,4.7,Bachelors,No,No,No,78.4,72.8,C,0,average,Moderate,2.8,3.0,0,0.2158438130725043
+421,Female,3.8,87.7,6.7,Bachelors,Yes,Yes,Yes,54.0,69.9,D,1,average,Healthy,0.7999999999999998,1.0,1,0.72069554417016
+422,Female,2.8,90.1,5.8,Bachelors,No,Yes,No,84.1,89.6,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.6945350100916006
+423,Female,5.4,69.2,7.9,High School,Yes,No,Yes,52.4,77.3,C,0,average,Moderate,0.40000000000000036,0.0,0,0.32110697096724117
+424,Male,2.2,94.0,6.1,Masters,No,No,No,62.0,64.6,D,1,average,Healthy,1.4000000000000004,1.0,0,0.3636469492314858
+425,Female,3.2,80.2,6.7,Bachelors,Yes,No,Yes,58.0,81.8,B,0,excellent,Healthy,0.7999999999999998,1.0,1,0.3057366868498681
+426,Male,2.8,86.5,6.0,High School,Yes,Yes,No,48.9,86.2,B,0,excellent,Healthy,1.5,2.0,0,0.6679863375252291
+427,Male,5.7,100.0,8.9,Bachelors,Yes,Yes,Yes,71.1,100.0,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.8947368421052632
+428,Female,3.8,94.0,6.4,,Yes,Yes,No,91.7,100.0,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7671557211613104
+429,Male,5.0,82.3,9.0,Bachelors,Yes,Yes,No,100.0,100.0,A,0,excellent,Healthy,1.5,2.0,0,0.7335041142679709
+430,Female,1.3,76.1,7.8,,Yes,Yes,No,71.2,72.0,C,0,average,Healthy,0.2999999999999998,0.0,0,0.5255006986492781
+431,Male,3.9,63.5,7.4,High School,Yes,No,No,83.4,81.2,B,0,excellent,Moderate,0.09999999999999964,0.0,0,0.21328209905294213
+432,Female,4.8,77.8,7.2,High School,Yes,Yes,No,72.8,100.0,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.6915463437354448
+433,Male,3.6,82.9,7.3,High School,Yes,No,Yes,76.0,79.7,C,0,average,Healthy,0.20000000000000018,0.0,0,0.34319205092376964
+434,Female,5.1,75.1,4.5,Bachelors,Yes,Yes,No,65.9,89.4,B,0,excellent,Healthy,3.0,3.0,0,0.6847927340475081
+435,Female,2.7,83.7,6.5,High School,Yes,No,No,72.3,77.8,C,0,average,Healthy,1.0,1.0,0,0.30961807172799255
+436,Female,5.6,85.8,7.8,High School,Yes,Yes,Yes,76.4,93.4,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7856311131811831
+437,Female,6.9,82.8,6.7,,Yes,Yes,Yes,63.1,100.0,A,0,excellent,Healthy,0.7999999999999998,1.0,1,0.8205247632355225
+438,Female,3.0,78.5,5.1,Masters,Yes,Yes,No,69.1,76.5,C,0,average,Healthy,2.4000000000000004,2.0,0,0.6177612172022978
+439,Male,2.8,86.7,6.7,Masters,Yes,No,No,69.3,79.3,C,0,average,Healthy,0.7999999999999998,1.0,0,0.33612793044558303
+440,Male,5.7,89.4,8.8,High School,No,No,No,79.9,100.0,A,0,excellent,Healthy,1.3000000000000007,1.0,0,0.4832324173265022
+441,Male,5.9,74.1,8.3,High School,Yes,Yes,No,57.2,98.9,A,0,excellent,Moderate,0.8000000000000007,1.0,0,0.7125058220773172
+442,Female,2.7,99.1,6.7,High School,Yes,Yes,Yes,69.4,87.5,B,0,excellent,Healthy,0.7999999999999998,1.0,1,0.7565207265952493
+443,Male,2.9,84.0,7.9,Masters,Yes,No,Yes,92.9,85.2,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.3206023909330849
+444,Female,3.1,85.2,6.4,,Yes,Yes,No,84.0,86.0,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.6715572116131036
+445,Female,1.5,92.1,4.8,Bachelors,Yes,Yes,Yes,86.2,80.7,B,0,excellent,Healthy,2.7,3.0,1,0.6522667287688247
+446,Male,2.1,87.3,5.7,High School,Yes,No,No,70.3,79.9,C,0,average,Healthy,1.7999999999999998,2.0,0,0.30985095482068
+447,Male,2.0,94.5,8.7,Bachelors,Yes,No,No,73.9,79.1,C,0,average,Healthy,1.1999999999999993,1.0,0,0.35856233504114265
+448,Female,2.3,87.9,6.5,High School,Yes,Yes,Yes,82.0,87.1,B,0,excellent,Healthy,1.0,1.0,1,0.6563809967396367
+449,Male,3.4,78.9,6.5,Bachelors,Yes,Yes,No,88.7,90.7,A,0,excellent,Healthy,1.0,1.0,0,0.6382549293587952
+450,Female,3.9,88.6,6.4,Bachelors,Yes,No,Yes,46.6,64.6,D,1,average,Healthy,1.0999999999999996,1.0,1,0.3983853438907002
+451,Female,5.8,73.6,9.1,Masters,No,Yes,No,54.2,77.9,C,0,average,Moderate,1.5999999999999996,2.0,0,0.7044325415308181
+452,Female,2.0,86.1,8.8,High School,Yes,Yes,Yes,85.7,82.0,B,0,excellent,Healthy,1.3000000000000007,1.0,0,0.6299487657196087
+453,Female,5.0,84.7,9.5,High School,Yes,No,No,66.7,92.8,A,0,excellent,Healthy,2.0,2.0,0,0.41786989597888535
+454,Female,3.2,82.9,6.6,,No,No,No,61.9,85.4,B,0,excellent,Healthy,0.9000000000000004,1.0,0,0.3256481912746469
+455,Male,3.4,83.7,7.2,High School,Yes,Yes,No,55.0,80.7,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.6736531594472908
+456,Male,4.5,66.2,5.0,High School,Yes,No,No,63.3,72.7,C,0,average,Moderate,2.5,2.0,0,0.2595093929514051
+457,Female,1.8,79.5,8.6,High School,Yes,No,Yes,53.2,68.8,D,1,average,Healthy,1.0999999999999996,1.0,0,0.2391709361900326
+458,Female,4.1,85.9,5.4,High School,No,Yes,No,95.1,89.9,B,0,excellent,Healthy,2.0999999999999996,2.0,0,0.7205791026238163
+459,Male,3.7,86.6,7.1,Bachelors,No,No,No,69.7,83.3,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.3748641515292656
+460,Male,4.2,74.7,5.5,Masters,Yes,Yes,No,69.3,86.8,B,0,excellent,Moderate,2.0,2.0,0,0.6423691973296073
+461,Female,3.9,97.7,6.1,High School,Yes,Yes,Yes,77.1,98.2,A,0,excellent,Healthy,1.4000000000000004,1.0,1,0.7988278217668064
+462,Male,7.2,76.3,5.8,Bachelors,Yes,No,No,81.5,100.0,A,0,excellent,Healthy,1.7000000000000002,2.0,0,0.45241422139419346
+463,Female,2.5,94.7,6.1,Masters,Yes,Yes,Yes,81.4,95.1,A,0,excellent,Healthy,1.4000000000000004,1.0,1,0.715300419189567
+464,Male,2.7,89.3,6.2,Bachelors,Yes,Yes,No,82.9,93.5,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.6842493401645706
+465,Female,2.6,78.5,6.1,PhD,No,Yes,Yes,62.4,63.2,D,1,average,Healthy,1.4000000000000004,1.0,1,0.600217357553175
+466,Male,2.7,100.0,7.8,PhD,Yes,Yes,No,66.4,100.0,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7631578947368421
+467,Female,2.5,73.1,5.5,High School,Yes,No,Yes,79.2,77.1,C,0,average,Moderate,2.0,2.0,1,0.22267505045800337
+468,Male,5.3,94.2,7.1,Masters,Yes,No,No,63.7,88.8,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.5010867877658748
+469,Male,5.6,95.0,8.3,Bachelors,Yes,No,No,69.9,100.0,A,0,excellent,Healthy,0.8000000000000007,1.0,0,0.5201443875174663
+470,Female,2.6,78.3,6.2,,Yes,Yes,Yes,74.8,89.9,B,0,excellent,Healthy,1.2999999999999998,1.0,1,0.5987424312994877
+471,Male,2.3,98.9,5.9,Bachelors,Yes,Yes,No,79.4,87.6,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.7375019406924391
+472,Female,4.2,82.5,6.5,,No,Yes,Yes,48.7,68.0,D,1,average,Healthy,1.0,1.0,1,0.6998913212234125
+473,Male,2.7,87.9,8.2,Masters,No,Yes,No,78.6,82.2,B,0,excellent,Healthy,0.6999999999999993,1.0,0,0.6739248563887595
+474,Female,4.4,87.6,7.0,High School,Yes,Yes,No,67.2,94.0,A,0,excellent,Healthy,0.5,0.0,0,0.7462738705170006
+475,Male,3.8,83.7,6.2,Bachelors,No,No,No,78.5,90.9,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.3578636857630803
+476,Female,1.2,93.1,7.4,,Yes,No,No,79.3,85.0,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.3131501319670858
+477,Male,5.8,92.9,5.5,PhD,Yes,No,Yes,89.3,100.0,A,0,excellent,Healthy,2.0,2.0,1,0.5134295916783108
+478,Female,6.2,67.5,7.6,High School,Yes,Yes,No,86.2,100.0,A,0,excellent,Moderate,0.09999999999999964,0.0,0,0.6769911504424778
+479,Male,2.6,98.0,7.3,Masters,Yes,No,Yes,86.2,87.4,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.4106893339543549
+480,Female,2.9,68.4,6.4,High School,No,Yes,No,87.3,84.8,B,0,excellent,Moderate,1.0999999999999996,1.0,0,0.5388914764788076
+481,Female,3.9,95.3,5.8,High School,Yes,Yes,No,73.5,89.5,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.7811287067225585
+482,Female,4.0,96.3,5.7,Bachelors,Yes,No,No,70.4,92.3,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.45955596956994255
+483,Male,4.5,74.1,7.4,High School,Yes,No,Yes,80.5,86.6,B,0,excellent,Moderate,0.09999999999999964,0.0,0,0.317768979972054
+484,Female,6.5,80.9,8.3,Masters,Yes,Yes,No,78.8,100.0,A,0,excellent,Healthy,0.8000000000000007,1.0,0,0.7889691041763701
+485,Male,3.2,73.9,6.0,High School,Yes,Yes,No,66.3,75.7,C,0,average,Moderate,1.5,2.0,0,0.592609843192051
+486,Female,2.3,82.9,7.4,Masters,Yes,Yes,Yes,74.9,87.3,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6195078403974539
+487,Male,1.4,81.9,4.3,High School,Yes,No,No,69.6,66.6,D,1,average,Healthy,3.2,3.0,0,0.23932619158515764
+488,Female,2.4,92.8,6.1,High School,Yes,Yes,No,59.8,74.1,C,0,average,Healthy,1.4000000000000004,1.0,0,0.6969026548672567
+489,Male,3.5,98.1,6.8,High School,Yes,No,No,85.5,100.0,A,0,excellent,Healthy,0.7000000000000002,1.0,0,0.45090048129172483
+490,Male,6.2,99.0,5.7,High School,Yes,Yes,No,70.7,100.0,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.9092920353982302
+491,Female,2.7,79.4,5.7,High School,Yes,Yes,No,94.6,74.3,C,0,average,Healthy,1.7999999999999998,2.0,0,0.6112404906070487
+492,Male,3.8,82.9,6.0,High School,Yes,Yes,Yes,50.5,71.1,C,0,average,Healthy,1.5,2.0,1,0.6852973140816644
+493,Male,3.5,68.2,7.2,Bachelors,Yes,Yes,No,63.3,66.7,D,1,average,Moderate,0.2999999999999998,0.0,0,0.5637323396988045
+494,Female,5.3,76.9,6.6,High School,Yes,Yes,Yes,70.4,82.1,B,0,excellent,Healthy,0.9000000000000004,1.0,1,0.7068390001552555
+495,Male,7.3,94.6,4.1,Bachelors,Yes,No,No,83.6,88.5,B,0,excellent,Healthy,3.4000000000000004,3.0,0,0.5917559385188635
+496,Male,2.7,100.0,4.3,Bachelors,No,No,No,74.8,79.4,C,0,average,Healthy,3.2,3.0,0,0.4298245614035088
+497,Male,2.8,72.7,6.1,PhD,Yes,No,No,73.7,71.0,C,0,average,Moderate,1.4000000000000004,1.0,0,0.2328830926874709
+498,Female,5.1,79.1,7.3,,Yes,No,No,56.5,85.4,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.38095792578792115
+499,Male,4.5,84.7,3.5,Bachelors,No,No,Yes,56.1,61.8,D,1,average,Healthy,4.0,4.0,1,0.39594007141748183
+500,Female,6.3,87.8,6.2,High School,Yes,No,No,73.9,99.6,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.49774879677068773
+501,Male,4.4,76.9,6.2,High School,Yes,No,No,53.6,76.1,C,0,average,Healthy,1.2999999999999998,1.0,0,0.3340319826113958
+502,Male,3.0,89.2,8.5,,Yes,Yes,Yes,63.6,90.4,A,0,excellent,Healthy,1.0,1.0,0,0.6966697717745692
+503,Male,4.4,80.3,6.3,High School,No,Yes,No,76.0,93.3,A,0,excellent,Healthy,1.2000000000000002,1.0,0,0.6924390622574134
+504,Female,5.2,84.9,7.3,High School,No,Yes,No,58.2,88.9,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7614500853904674
+505,Male,4.7,90.5,7.0,High School,Yes,Yes,No,89.3,99.0,A,0,excellent,Healthy,0.5,0.0,0,0.7808181959323086
+506,Male,4.3,85.1,4.2,High School,Yes,Yes,Yes,84.7,100.0,A,0,excellent,Healthy,3.3,3.0,1,0.7234513274336282
+507,Female,5.1,80.6,7.7,High School,Yes,No,No,51.1,74.5,C,0,average,Healthy,0.20000000000000018,0.0,0,0.392019872690576
+508,Male,5.3,83.9,7.1,Masters,No,Yes,Yes,58.8,72.8,C,0,average,Healthy,0.40000000000000036,0.0,0,0.7584614190343114
+509,Female,5.6,84.1,7.4,High School,No,Yes,Yes,42.6,76.1,C,0,average,Healthy,0.09999999999999964,0.0,0,0.7730942400248408
+510,Female,4.5,81.3,10.0,Bachelors,Yes,Yes,Yes,60.6,99.5,A,0,excellent,Healthy,2.5,2.0,0,0.7041996584381307
+511,Male,3.2,82.4,4.3,High School,Yes,Yes,Yes,79.2,79.9,C,0,average,Healthy,3.2,3.0,1,0.6552942089737619
+512,Female,3.7,100.0,8.9,High School,Yes,Yes,Yes,65.0,88.2,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.8070175438596491
+513,Male,5.3,90.6,6.5,,Yes,Yes,No,75.5,88.9,B,0,excellent,Healthy,1.0,1.0,0,0.8078714485328365
+514,Female,2.3,82.0,7.1,High School,Yes,Yes,No,51.7,77.9,C,0,average,Healthy,0.40000000000000036,0.0,0,0.6128706722558609
+515,Female,4.1,92.0,6.7,Masters,Yes,Yes,Yes,79.6,97.2,A,0,excellent,Healthy,0.7999999999999998,1.0,1,0.7655643533612793
+516,Male,2.9,81.7,6.3,Bachelors,Yes,No,Yes,63.3,79.3,C,0,average,Healthy,1.2000000000000002,1.0,1,0.30364073901568084
+517,Female,3.5,96.7,6.1,High School,Yes,No,No,70.1,84.2,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.44057599751591364
+518,Female,5.4,88.7,7.2,,No,Yes,No,68.9,86.3,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7982456140350878
+519,Female,3.8,83.9,5.0,High School,Yes,Yes,Yes,54.7,67.6,D,1,average,Healthy,2.5,2.0,1,0.692671945350101
+520,Female,3.6,89.5,7.7,PhD,Yes,Yes,Yes,56.2,80.7,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7251979506287843
+521,Female,1.5,69.3,6.3,High School,Yes,No,Yes,81.6,64.7,D,1,average,Moderate,1.2000000000000002,1.0,1,0.15079180251513738
+522,Male,4.6,73.7,5.4,PhD,No,Yes,Yes,74.8,71.8,C,0,average,Moderate,2.0999999999999996,2.0,1,0.6525384257102934
+523,Female,4.5,73.1,6.3,High School,Yes,Yes,Yes,82.6,84.9,B,0,excellent,Moderate,1.2000000000000002,1.0,1,0.6437276820369507
+524,Male,6.7,86.4,8.3,Bachelors,Yes,No,No,73.9,100.0,A,0,excellent,Healthy,0.8000000000000007,1.0,0,0.5049681726439995
+525,Female,3.0,100.0,6.2,Masters,Yes,Yes,Yes,71.7,82.4,B,0,excellent,Healthy,1.2999999999999998,1.0,1,0.7763157894736842
+526,Male,3.8,100.0,7.2,,Yes,Yes,No,49.3,87.3,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.8114035087719298
+527,Male,3.9,91.4,5.9,,Yes,Yes,Yes,66.8,84.8,B,0,excellent,Healthy,1.5999999999999996,2.0,1,0.752367644775656
+528,Female,5.9,90.0,7.7,Masters,Yes,No,No,69.7,96.4,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.49642912591212546
+529,Female,3.4,67.0,7.6,PhD,No,No,No,93.4,84.3,B,0,excellent,Moderate,0.09999999999999964,0.0,0,0.21716348393106663
+530,Female,3.9,79.6,9.0,High School,Yes,No,No,78.2,84.5,B,0,excellent,Healthy,1.5,2.0,0,0.33201366247477093
+531,Male,4.4,77.1,6.6,High School,Yes,Yes,No,88.4,94.7,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.6688402421984163
+532,Female,3.8,78.8,7.6,High School,Yes,Yes,No,77.2,89.6,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6550613258810744
+533,Male,2.8,83.3,6.9,Bachelors,Yes,No,No,61.5,68.6,D,1,average,Healthy,0.5999999999999996,1.0,0,0.3110541841328986
+534,Male,3.8,80.3,8.4,Bachelors,Yes,No,No,71.4,92.8,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.33278993945039587
+535,Male,5.1,65.2,5.9,Bachelors,Yes,Yes,No,72.8,80.7,B,0,excellent,Moderate,1.5999999999999996,2.0,0,0.6117838844899861
+536,Female,2.0,92.5,7.7,High School,Yes,No,No,58.7,77.6,C,0,average,Healthy,0.20000000000000018,0.0,0,0.34381307250426957
+537,Female,3.7,74.3,6.6,Masters,Yes,Yes,No,65.4,87.7,B,0,excellent,Moderate,0.9000000000000004,1.0,0,0.617489520260829
+538,Male,2.4,87.4,6.7,High School,Yes,Yes,No,67.5,86.0,B,0,excellent,Healthy,0.7999999999999998,1.0,0,0.6570796460176992
+539,Male,5.3,100.0,6.9,High School,Yes,No,No,89.3,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.543859649122807
+540,Female,1.2,75.8,7.1,Bachelors,Yes,Yes,Yes,45.0,57.3,F,1,poor,Healthy,0.40000000000000036,0.0,0,0.5189023443564663
+541,Male,2.7,59.7,6.7,Masters,No,No,Yes,84.5,75.6,C,0,average,Critical,0.7999999999999998,1.0,1,0.1326269212855147
+542,Female,4.1,82.1,7.1,Masters,Yes,Yes,No,58.8,87.3,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.6925555038037571
+543,Male,5.8,96.0,8.7,Bachelors,Yes,Yes,Yes,53.5,88.8,B,0,excellent,Healthy,1.1999999999999993,1.0,0,0.8696242819437976
+544,Female,3.4,100.0,8.0,High School,Yes,No,No,84.2,91.8,A,0,excellent,Healthy,0.5,0.0,0,0.4605263157894737
+545,Male,2.7,72.7,7.8,Bachelors,Yes,No,Yes,78.8,66.0,D,1,average,Moderate,0.2999999999999998,0.0,0,0.22849712777519024
+546,Female,6.3,90.0,6.3,High School,Yes,Yes,No,85.1,100.0,A,0,excellent,Healthy,1.2000000000000002,1.0,0,0.8473063188945815
+547,Male,1.3,80.3,5.7,Bachelors,No,Yes,No,79.6,71.1,C,0,average,Healthy,1.7999999999999998,2.0,0,0.5564741499767116
+548,Female,0.5,83.9,7.9,Bachelors,Yes,No,No,94.7,88.8,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.21460176991150448
+549,Female,4.2,100.0,7.9,High School,Yes,Yes,No,76.7,100.0,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.8289473684210527
+550,Male,2.7,70.0,8.6,High School,Yes,No,No,68.1,85.2,B,0,excellent,Moderate,1.0999999999999996,1.0,0,0.20858562335041145
+551,Male,2.0,87.5,6.1,,Yes,No,No,74.1,75.4,C,0,average,Healthy,1.4000000000000004,1.0,0,0.30693991616208666
+552,Female,4.6,89.7,6.5,,Yes,Yes,No,84.9,100.0,A,0,excellent,Healthy,1.0,1.0,0,0.7705325260052787
+553,Male,3.9,95.9,4.8,Bachelors,Yes,Yes,Yes,60.6,78.9,C,0,average,Healthy,2.7,3.0,1,0.7855534854836206
+554,Female,2.7,86.0,6.3,High School,Yes,Yes,No,62.2,83.4,B,0,excellent,Healthy,1.2000000000000002,1.0,0,0.65991305697873
+555,Male,1.6,88.1,8.0,High School,No,No,No,66.3,63.4,D,1,average,Healthy,0.5,0.0,0,0.29382083527402575
+556,Female,4.8,81.1,6.2,Bachelors,Yes,Yes,No,44.7,80.7,B,0,excellent,Healthy,1.2999999999999998,1.0,0,0.7158826269212856
+557,Female,4.5,87.7,7.6,,Yes,Yes,No,71.7,80.8,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7513972985561249
+558,Female,3.4,81.6,6.6,High School,Yes,Yes,No,47.4,73.1,C,0,average,Healthy,0.9000000000000004,1.0,0,0.658166433783574
+559,Female,6.3,91.2,7.2,Masters,Yes,No,Yes,70.6,99.8,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.5228225430833722
+560,Female,1.9,81.3,5.4,High School,Yes,Yes,Yes,80.4,73.5,C,0,average,Healthy,2.0999999999999996,2.0,1,0.5901645707188324
+561,Female,1.2,88.8,6.9,,Yes,Yes,No,64.3,68.2,D,1,average,Healthy,0.5999999999999996,1.0,0,0.6147725508461419
+562,Male,2.5,84.7,3.2,Bachelors,No,No,No,90.1,83.9,B,0,excellent,Healthy,4.3,4.0,0,0.30822077317186775
+563,Male,3.4,96.3,6.6,Masters,No,No,No,52.5,75.3,C,0,average,Healthy,0.9000000000000004,1.0,0,0.43324018009625836
+564,Male,3.9,84.5,4.8,High School,No,No,Yes,84.3,78.7,C,0,average,Healthy,2.7,3.0,1,0.36814935569011026
+565,Female,3.1,67.3,8.2,Bachelors,Yes,Yes,No,78.1,82.8,B,0,excellent,Moderate,0.6999999999999993,1.0,0,0.5395513119080888
+566,Female,4.0,97.6,7.7,High School,Yes,Yes,No,49.4,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.8024763235522435
+567,Female,1.6,75.9,7.4,High School,Yes,No,No,100.0,92.6,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.20385033379909956
+568,Female,5.7,78.5,8.6,,Yes,Yes,Yes,69.2,99.1,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7361822698338768
+569,Male,3.4,79.0,5.7,,Yes,No,Yes,59.5,76.2,C,0,average,Healthy,1.7999999999999998,2.0,1,0.30565905915230557
+570,Male,5.2,98.7,8.9,PhD,Yes,No,Yes,53.1,90.9,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.5298866635615588
+571,Female,4.0,63.6,7.9,Bachelors,Yes,Yes,Yes,67.4,63.3,D,1,average,Moderate,0.40000000000000036,0.0,0,0.5517388604253998
+572,Male,4.2,100.0,6.5,Masters,Yes,No,Yes,68.5,85.0,B,0,excellent,Healthy,1.0,1.0,1,0.49561403508771934
+573,Male,4.4,95.6,8.2,High School,Yes,No,Yes,71.2,88.7,B,0,excellent,Healthy,0.6999999999999993,1.0,0,0.47193758733115976
+574,Female,4.2,87.2,5.5,High School,Yes,Yes,No,66.4,75.3,C,0,average,Healthy,2.0,2.0,0,0.7345520881850645
+575,Male,4.5,84.5,5.8,High School,Yes,Yes,No,77.6,84.9,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.7277984784971278
+576,Female,5.5,87.9,6.1,Bachelors,Yes,Yes,No,65.3,81.1,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7967318739326193
+577,Male,3.8,90.2,6.2,Bachelors,Yes,Yes,Yes,46.8,75.6,C,0,average,Healthy,1.2999999999999998,1.0,1,0.7391321223412515
+578,Female,4.6,91.5,5.5,High School,Yes,Yes,No,68.2,95.5,A,0,excellent,Healthy,2.0,2.0,0,0.7838068622884645
+579,Female,3.4,90.6,8.3,Bachelors,Yes,No,No,41.6,83.3,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.39120478186616986
+580,Female,5.7,85.9,6.5,Masters,Yes,No,Yes,74.2,95.7,A,0,excellent,Healthy,1.0,1.0,1,0.4574212078869741
+581,Female,2.5,83.0,7.2,Bachelors,Yes,Yes,No,58.2,70.4,C,0,average,Healthy,0.2999999999999998,0.0,0,0.6290172333488588
+582,Male,6.2,83.5,6.1,High School,Yes,Yes,Yes,72.0,82.7,B,0,excellent,Healthy,1.4000000000000004,1.0,1,0.7949852507374632
+583,Female,3.4,83.1,4.6,High School,Yes,No,No,85.8,76.7,C,0,average,Healthy,2.9000000000000004,3.0,0,0.3358950473528955
+584,Female,1.4,96.3,7.1,High School,Yes,Yes,No,58.6,68.4,D,1,average,Healthy,0.40000000000000036,0.0,0,0.6788542151839776
+585,Female,3.7,90.9,4.5,High School,Yes,No,No,82.7,84.6,B,0,excellent,Healthy,3.0,3.0,0,0.406575065983543
+586,Male,2.5,55.6,6.7,Bachelors,Yes,Yes,No,64.8,67.7,D,1,average,Critical,0.7999999999999998,1.0,0,0.42695233659369664
+587,Female,4.8,91.6,5.2,Bachelors,No,Yes,No,91.0,89.2,B,0,excellent,Healthy,2.3,2.0,0,0.7933162552398696
+588,Male,2.5,86.9,9.2,Masters,Yes,Yes,No,65.6,85.0,B,0,excellent,Healthy,1.6999999999999993,2.0,0,0.6577782952957616
+589,Female,2.8,84.8,7.9,Bachelors,Yes,No,No,59.9,77.3,C,0,average,Healthy,0.40000000000000036,0.0,0,0.3221161310355534
+590,Male,0.7,81.1,6.9,Masters,Yes,Yes,Yes,78.2,72.2,C,0,average,Healthy,0.5999999999999996,1.0,1,0.5360580655177767
+591,Male,2.8,96.2,8.3,High School,Yes,No,Yes,64.8,89.0,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.40618692749573054
+592,Female,0.5,94.5,5.8,Bachelors,Yes,Yes,No,59.9,63.2,D,1,average,Healthy,1.7000000000000002,2.0,0,0.6261061946902654
+593,Male,1.1,77.3,7.5,Masters,Yes,Yes,No,64.3,73.2,C,0,average,Healthy,0.0,0.0,0,0.5255783263468405
+594,Female,4.6,89.1,7.0,High School,No,Yes,No,69.5,87.0,B,0,excellent,Healthy,0.5,0.0,0,0.7661077472442167
+595,Female,4.7,75.3,7.1,High School,Yes,No,Yes,86.1,88.5,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.33539046731873934
+596,Female,4.1,71.2,8.3,PhD,Yes,No,No,46.8,80.4,B,0,excellent,Moderate,0.8000000000000007,1.0,0,0.2788386896444652
+597,Male,2.0,78.7,7.7,High School,Yes,Yes,Yes,70.3,80.2,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.5753764943331782
+598,Male,3.4,93.6,7.1,Masters,No,Yes,No,77.5,80.9,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7466620090048129
+599,Female,3.5,94.5,4.8,High School,Yes,Yes,No,72.3,86.4,B,0,excellent,Healthy,2.7,3.0,0,0.7576851420586865
+600,Female,1.8,90.1,5.6,Masters,Yes,Yes,No,85.7,86.3,B,0,excellent,Healthy,1.9000000000000004,2.0,0,0.6506753609687936
+601,Male,5.8,92.3,6.7,High School,Yes,Yes,Yes,69.1,93.4,A,0,excellent,Healthy,0.7999999999999998,1.0,1,0.8423381462505821
+602,Female,4.8,90.2,6.9,High School,Yes,No,No,67.8,95.1,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.4496584381307251
+603,Female,3.2,78.6,5.4,Bachelors,Yes,No,No,77.1,83.9,B,0,excellent,Healthy,2.0999999999999996,2.0,0,0.29393727682036946
+604,Female,3.5,89.3,9.7,High School,Yes,Yes,No,71.2,100.0,A,0,excellent,Healthy,2.1999999999999993,2.0,0,0.7193370594628163
+605,Male,3.8,93.0,8.6,Bachelors,Yes,Yes,No,65.3,80.9,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7597810898928739
+606,Male,0.5,92.5,7.5,High School,Yes,No,No,76.2,76.4,C,0,average,Healthy,0.0,0.0,0,0.278023598820059
+607,Male,3.1,96.9,6.9,High School,No,No,No,62.2,73.6,C,0,average,Healthy,0.5999999999999996,1.0,0,0.42450706412047823
+608,Female,2.5,92.1,6.5,High School,Yes,Yes,No,62.7,84.0,B,0,excellent,Healthy,1.0,1.0,0,0.6961263778916317
+609,Female,2.0,88.5,5.7,High School,No,Yes,Yes,63.7,58.6,F,1,poor,Healthy,1.7999999999999998,2.0,1,0.6476478807638565
+610,Female,3.1,95.7,6.9,,Yes,Yes,No,86.2,96.3,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7489908399316877
+611,Male,6.2,84.7,7.1,High School,Yes,Yes,No,31.3,78.8,C,0,average,Healthy,0.40000000000000036,0.0,0,0.8038348082595871
+612,Female,4.5,76.2,5.3,Bachelors,Yes,Yes,Yes,74.7,79.8,C,0,average,Healthy,2.2,2.0,1,0.6665890389691042
+613,Female,2.6,83.4,7.2,High School,Yes,Yes,Yes,70.4,70.0,C,0,average,Healthy,0.2999999999999998,0.0,0,0.6363530507685142
+614,Female,4.4,77.6,6.6,High School,Yes,No,No,49.8,75.0,C,0,average,Healthy,0.9000000000000004,1.0,0,0.33919422449930137
+615,Female,5.6,78.2,4.5,,Yes,Yes,Yes,73.7,95.0,A,0,excellent,Healthy,3.0,3.0,1,0.729583915541065
+616,Male,4.9,83.6,5.8,High School,Yes,Yes,No,75.7,92.4,A,0,excellent,Healthy,1.7000000000000002,2.0,0,0.7387051700046575
+617,Male,3.6,77.1,6.3,,Yes,Yes,Yes,77.1,86.4,B,0,excellent,Healthy,1.2000000000000002,1.0,1,0.6337525229001707
+618,Female,2.5,81.9,9.1,High School,Yes,No,No,38.2,79.1,C,0,average,Healthy,1.5999999999999996,2.0,0,0.28757180562024537
+619,Male,4.5,66.1,7.5,Masters,Yes,No,No,86.4,91.5,A,0,excellent,Moderate,0.0,0.0,0,0.2587719298245614
+620,Male,4.1,87.1,5.2,Bachelors,Yes,Yes,No,61.1,80.3,B,0,excellent,Healthy,2.3,2.0,0,0.7294286601459401
+621,Female,4.8,85.0,7.4,PhD,Yes,Yes,No,78.2,98.3,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7446436888681882
+622,Female,4.5,76.8,4.9,Bachelors,No,No,No,78.9,79.3,C,0,average,Healthy,2.5999999999999996,3.0,0,0.3376804843968328
+623,Male,5.1,91.6,8.1,Bachelors,Yes,Yes,No,59.5,89.5,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.8064741499767116
+624,Female,2.7,94.4,6.2,High School,Yes,Yes,Yes,77.9,75.7,C,0,average,Healthy,1.2999999999999998,1.0,1,0.7218599596335973
+625,Male,5.5,68.9,6.7,High School,Yes,Yes,Yes,65.4,89.6,B,0,excellent,Moderate,0.7999999999999998,1.0,1,0.6566138798323242
+626,Female,3.8,77.4,8.4,,Yes,Yes,Yes,45.1,71.0,C,0,average,Healthy,0.9000000000000004,1.0,0,0.6447368421052632
+627,Male,6.6,77.3,5.3,High School,No,Yes,No,84.0,96.8,A,0,excellent,Healthy,2.2,2.0,0,0.7668063965222792
+628,Female,2.5,75.6,5.1,Bachelors,Yes,No,Yes,60.7,61.9,D,1,average,Healthy,2.4000000000000004,2.0,1,0.24111162862909483
+629,Male,6.1,93.3,6.1,Masters,Yes,No,Yes,59.7,93.9,A,0,excellent,Healthy,1.4000000000000004,1.0,1,0.5295373389225275
+630,Male,3.8,83.1,8.0,High School,Yes,Yes,No,65.2,81.3,B,0,excellent,Healthy,0.5,0.0,0,0.6867722403353517
+631,Male,2.5,82.4,5.0,,Yes,No,No,73.3,77.6,C,0,average,Healthy,2.5,2.0,0,0.2912591212544637
+632,Female,2.8,65.0,3.4,Masters,No,Yes,No,69.3,71.4,C,0,average,Moderate,4.1,4.0,0,0.5094317652538426
+633,Male,3.0,91.4,6.3,Bachelors,Yes,Yes,Yes,76.6,89.4,B,0,excellent,Healthy,1.2000000000000002,1.0,1,0.7128939605651298
+634,Male,4.1,72.6,7.5,PhD,Yes,No,Yes,53.9,74.3,C,0,average,Moderate,0.0,0.0,0,0.2891631734202763
+635,Female,4.3,85.6,8.2,High School,Yes,No,No,61.1,76.0,C,0,average,Healthy,0.6999999999999993,1.0,0,0.3938053097345133
+636,Female,2.6,87.8,6.2,High School,Yes,Yes,Yes,68.6,96.3,A,0,excellent,Healthy,1.2999999999999998,1.0,1,0.6688014283496351
+637,Male,3.5,98.6,6.3,Bachelors,Yes,Yes,No,92.8,100.0,A,0,excellent,Healthy,1.2000000000000002,1.0,0,0.7879211302592765
+638,Male,6.7,71.9,8.2,High School,Yes,No,No,68.6,99.9,A,0,excellent,Moderate,0.6999999999999993,1.0,0,0.39803601925166904
+639,Female,6.1,54.8,4.6,Masters,Yes,No,No,83.0,83.8,B,0,excellent,Critical,2.9000000000000004,3.0,0,0.24561403508771928
+640,Female,4.2,86.8,6.3,,No,No,Yes,70.5,79.4,C,0,average,Healthy,1.2000000000000002,1.0,1,0.39826890234435647
+641,Female,3.6,100.0,7.0,Bachelors,Yes,Yes,No,64.2,86.0,B,0,excellent,Healthy,0.5,0.0,0,0.8026315789473685
+642,Female,3.7,97.4,7.3,High School,Yes,Yes,No,67.0,97.9,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7878435025617141
+643,Female,4.4,87.1,6.2,,Yes,Yes,No,68.0,90.5,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.7425865548827821
+644,Male,2.0,80.1,6.8,Bachelors,No,Yes,No,77.2,70.4,C,0,average,Healthy,0.7000000000000002,1.0,0,0.5857009781089892
+645,Female,3.1,93.1,3.8,Bachelors,Yes,No,Yes,86.5,82.9,B,0,excellent,Healthy,3.7,4.0,1,0.39648346530041917
+646,Male,1.0,75.3,6.0,Bachelors,Yes,Yes,Yes,74.3,75.5,C,0,average,Healthy,1.5,2.0,1,0.5064430988976867
+647,Male,4.1,89.8,7.3,,Yes,Yes,No,84.2,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7493401645707188
+648,Male,4.5,90.1,5.6,Bachelors,Yes,No,No,58.4,94.0,A,0,excellent,Healthy,1.9000000000000004,2.0,0,0.4357630802670392
+649,Female,2.8,95.6,6.9,Masters,Yes,Yes,No,65.0,88.9,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7350954820680018
+650,Male,5.9,100.0,7.3,Masters,Yes,Yes,No,61.3,97.3,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.9035087719298246
+651,Male,1.7,88.9,6.4,High School,Yes,No,No,73.8,59.5,F,1,poor,Healthy,1.0999999999999996,1.0,0,0.3041065052010558
+652,Female,1.3,79.9,7.0,Bachelors,Yes,No,No,65.7,73.3,C,0,average,Healthy,0.5,0.0,0,0.22019096413600378
+653,Male,3.8,84.7,5.6,Masters,Yes,No,No,78.8,88.0,B,0,excellent,Healthy,1.9000000000000004,2.0,0,0.36523831703151693
+654,Male,5.1,67.3,6.6,Bachelors,No,Yes,Yes,58.8,74.8,C,0,average,Moderate,0.9000000000000004,1.0,1,0.6272706101537028
+655,Female,6.0,78.1,7.5,Masters,No,No,No,70.5,89.9,B,0,excellent,Healthy,0.0,0.0,0,0.41305697873001085
+656,Male,2.8,80.9,7.0,,Yes,No,Yes,78.2,72.6,C,0,average,Healthy,0.5,0.0,0,0.2933550690886509
+657,Male,5.1,79.8,6.1,Bachelors,Yes,Yes,No,45.2,83.6,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7194535010091601
+658,Male,3.4,86.5,7.1,Masters,Yes,Yes,No,95.5,100.0,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.6943021269989131
+659,Female,3.2,76.8,7.7,Masters,Yes,No,No,66.6,84.3,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.28066294053718366
+660,Female,4.8,96.2,4.3,Masters,Yes,Yes,Yes,45.7,85.4,B,0,excellent,Healthy,3.2,3.0,1,0.8272395590746778
+661,Female,4.5,85.0,8.2,Bachelors,Yes,No,No,71.9,95.2,A,0,excellent,Healthy,0.6999999999999993,1.0,0,0.3981524607980127
+662,Male,1.1,84.9,6.4,High School,Yes,Yes,Yes,70.4,69.0,D,1,average,Healthy,1.0999999999999996,1.0,1,0.5816255239869585
+663,Male,5.7,81.7,7.3,Bachelors,Yes,Yes,No,69.0,94.2,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7597810898928739
+664,Female,5.6,86.6,8.2,Masters,Yes,Yes,Yes,81.9,99.7,A,0,excellent,Healthy,0.6999999999999993,1.0,0,0.7915308181959322
+665,Male,2.6,93.3,5.2,Bachelors,Yes,No,No,79.0,85.8,B,0,excellent,Healthy,2.3,2.0,0,0.376028566992703
+666,Male,4.1,76.3,5.9,Masters,Yes,Yes,No,73.6,91.7,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.649782642446825
+667,Female,4.2,78.4,6.5,Bachelors,Yes,Yes,No,75.4,92.2,A,0,excellent,Healthy,1.0,1.0,0,0.6696553330228227
+668,Female,3.9,82.0,5.9,Bachelors,Yes,No,No,68.7,96.3,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.3497127775190188
+669,Male,2.7,71.5,8.9,High School,Yes,No,Yes,91.3,97.6,A,0,excellent,Moderate,1.4000000000000004,1.0,0,0.21964757025306633
+670,Male,2.5,76.8,5.8,Masters,Yes,No,Yes,52.2,66.4,D,1,average,Healthy,1.7000000000000002,2.0,1,0.24996118615121876
+671,Male,3.5,80.2,6.1,Bachelors,Yes,Yes,No,71.7,60.8,D,1,average,Healthy,1.4000000000000004,1.0,0,0.6522279149200435
+672,Female,5.3,93.7,7.0,High School,No,Yes,No,70.8,99.8,A,0,excellent,Healthy,0.5,0.0,0,0.83073280546499
+673,Female,4.3,87.6,5.4,High School,Yes,No,Yes,79.8,85.2,B,0,excellent,Healthy,2.0999999999999996,2.0,1,0.40855457227138636
+674,Female,2.9,86.9,6.3,Masters,Yes,No,No,59.9,73.2,C,0,average,Healthy,1.2000000000000002,1.0,0,0.34198882161155103
+675,Female,4.7,93.5,7.2,Bachelors,Yes,Yes,No,49.1,83.8,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.8029420897376184
+676,Male,0.5,83.6,6.4,High School,No,Yes,Yes,71.9,61.3,D,1,average,Healthy,1.0999999999999996,1.0,1,0.5457227138643067
+677,Female,5.2,88.9,6.7,,No,No,Yes,73.4,90.6,A,0,excellent,Healthy,0.7999999999999998,1.0,1,0.45761527713088035
+678,Female,0.9,84.0,6.2,Masters,Yes,Yes,Yes,87.9,67.7,D,1,average,Healthy,1.2999999999999998,1.0,1,0.5662164260208042
+679,Female,3.0,87.7,5.0,,No,No,No,54.8,63.6,D,1,average,Healthy,2.5,2.0,0,0.352274491538581
+680,Female,1.8,79.2,7.2,Bachelors,Yes,Yes,No,83.9,84.1,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.570291880142835
+681,Female,1.6,60.6,8.9,Bachelors,Yes,Yes,No,98.4,86.2,B,0,excellent,Moderate,1.4000000000000004,1.0,0,0.4243518087253532
+682,Male,5.2,83.7,6.8,PhD,Yes,No,No,65.5,93.9,A,0,excellent,Healthy,0.7000000000000002,1.0,0,0.4192671945350101
+683,Male,2.8,99.2,7.1,Bachelors,Yes,Yes,Yes,54.5,73.9,C,0,average,Healthy,0.40000000000000036,0.0,0,0.7616441546343736
+684,Female,4.0,94.3,7.6,Masters,No,Yes,No,65.1,79.3,C,0,average,Healthy,0.09999999999999964,0.0,0,0.7781400403664027
+685,Male,3.4,94.7,5.3,High School,Yes,Yes,No,70.2,83.8,B,0,excellent,Healthy,2.2,2.0,0,0.7547741034000932
+686,Female,4.2,97.4,8.8,Bachelors,No,Yes,Yes,76.8,91.7,A,0,excellent,Healthy,1.3000000000000007,1.0,0,0.8097733271231177
+687,Female,3.6,85.9,7.0,High School,Yes,No,No,62.9,91.7,A,0,excellent,Healthy,0.5,0.0,0,0.3653159447290794
+688,Male,1.6,87.0,8.8,High School,Yes,No,No,88.7,74.4,C,0,average,Healthy,1.3000000000000007,1.0,0,0.28570874087874554
+689,Male,5.0,78.8,5.9,High School,Yes,No,No,56.6,81.5,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.3743595714951094
+690,Female,2.8,81.8,9.0,High School,Yes,Yes,No,49.1,67.7,D,1,average,Healthy,1.5,2.0,0,0.6333255705635771
+691,Female,1.2,91.2,7.7,,Yes,Yes,Yes,83.3,71.0,C,0,average,Healthy,0.20000000000000018,0.0,0,0.6324716658903897
+692,Female,2.9,97.0,7.5,High School,Yes,Yes,Yes,42.7,79.9,C,0,average,Healthy,0.0,0.0,0,0.7498059307560938
+693,Male,5.8,83.6,7.1,Masters,No,No,No,67.6,92.2,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.44484552088185064
+694,Female,4.8,80.5,6.5,Masters,Yes,No,Yes,100.0,100.0,A,0,excellent,Healthy,1.0,1.0,1,0.3781245148268903
+695,Female,3.0,85.0,8.2,Bachelors,Yes,No,No,69.9,89.6,B,0,excellent,Healthy,0.6999999999999993,1.0,0,0.33236298711380224
+696,Female,3.0,91.0,7.0,High School,Yes,Yes,No,56.6,77.5,C,0,average,Healthy,0.5,0.0,0,0.709944108057755
+697,Male,3.0,70.6,4.4,Masters,Yes,Yes,No,69.3,72.6,C,0,average,Moderate,3.0999999999999996,3.0,0,0.5595016301816488
+698,Female,6.6,62.0,5.5,Bachelors,No,Yes,No,69.4,97.9,A,0,excellent,Moderate,2.0,2.0,0,0.6539745381151995
+699,Female,4.1,79.5,6.6,Masters,Yes,Yes,No,71.9,85.5,B,0,excellent,Healthy,0.9000000000000004,1.0,0,0.6733814625058221
+700,Male,4.1,72.8,7.2,Masters,Yes,Yes,No,77.9,92.1,A,0,excellent,Moderate,0.2999999999999998,0.0,0,0.623971433007297
+701,Female,5.0,79.9,6.7,,Yes,No,No,57.5,84.5,B,0,excellent,Healthy,0.7999999999999998,1.0,0,0.3824716658903897
+702,Female,3.9,83.5,8.3,Bachelors,Yes,Yes,Yes,90.3,82.8,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.694108057755007
+703,Male,3.1,80.5,4.5,High School,Yes,Yes,Yes,72.9,65.4,D,1,average,Healthy,3.0,3.0,1,0.6368964446514517
+704,Female,3.2,99.5,7.0,Bachelors,Yes,Yes,No,78.7,89.6,B,0,excellent,Healthy,0.5,0.0,0,0.7814004036640273
+705,Male,3.4,88.3,4.6,High School,Yes,No,Yes,62.5,83.1,B,0,excellent,Healthy,2.9000000000000004,3.0,1,0.3742431299487657
+706,Male,3.4,88.0,7.7,PhD,Yes,No,Yes,85.4,94.2,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.37203074056823476
+707,Female,4.6,91.2,6.7,High School,Yes,No,Yes,66.9,92.9,A,0,excellent,Healthy,0.7999999999999998,1.0,1,0.4482611395746002
+708,Female,3.6,73.6,7.3,High School,Yes,No,No,73.3,77.1,C,0,average,Moderate,0.20000000000000018,0.0,0,0.2746079801273094
+709,Female,4.6,95.4,5.8,Masters,Yes,Yes,No,58.8,98.3,A,0,excellent,Healthy,1.7000000000000002,2.0,0,0.8125679242353673
+710,Female,3.4,84.2,8.3,Bachelors,Yes,No,Yes,58.0,72.1,C,0,average,Healthy,0.8000000000000007,1.0,0,0.3440071417481758
+711,Male,3.6,91.7,8.1,Bachelors,Yes,Yes,No,78.3,94.6,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7414221394193449
+712,Female,0.5,74.3,7.5,Bachelors,Yes,Yes,No,64.7,67.1,D,1,average,Moderate,0.0,0.0,0,0.4771386430678466
+713,Male,4.9,69.5,6.6,PhD,No,No,Yes,59.8,72.2,C,0,average,Moderate,0.9000000000000004,1.0,1,0.30138953578636857
+714,Female,4.0,93.2,7.5,High School,Yes,No,No,62.3,95.6,A,0,excellent,Healthy,0.0,0.0,0,0.43669461263778925
+715,Female,5.0,88.8,6.0,PhD,Yes,Yes,No,78.4,91.9,A,0,excellent,Healthy,1.5,2.0,0,0.7814392175128085
+716,Female,0.5,76.0,7.8,High School,No,Yes,No,62.5,54.1,F,1,poor,Healthy,0.2999999999999998,0.0,0,0.4896755162241888
+717,Male,6.6,76.3,8.8,Masters,Yes,Yes,No,68.6,98.5,A,0,excellent,Healthy,1.3000000000000007,1.0,0,0.7594317652538426
+718,Female,3.3,96.3,8.1,Masters,Yes,Yes,Yes,70.2,85.0,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.762187548517311
+719,Female,5.2,73.1,5.9,High School,Yes,Yes,No,47.0,99.1,A,0,excellent,Moderate,1.5999999999999996,2.0,0,0.6744294364229156
+720,Female,1.9,100.0,7.2,Bachelors,Yes,Yes,Yes,52.3,78.2,C,0,average,Healthy,0.2999999999999998,0.0,0,0.7280701754385964
+721,Female,4.4,76.0,5.2,High School,Yes,Yes,No,74.0,83.8,B,0,excellent,Healthy,2.3,2.0,0,0.6607281478031362
+722,Male,1.9,91.4,7.5,Masters,Yes,No,No,61.2,70.7,C,0,average,Healthy,0.0,0.0,0,0.33131501319670864
+723,Female,2.6,81.7,7.3,Bachelors,No,Yes,No,82.7,69.9,D,1,average,Healthy,0.20000000000000018,0.0,0,0.6238161776121721
+724,Male,6.4,91.0,4.6,Bachelors,Yes,Yes,Yes,81.6,93.7,A,0,excellent,Healthy,2.9000000000000004,3.0,1,0.8590669150752989
+725,Male,3.2,79.6,5.4,High School,Yes,Yes,No,78.6,84.9,B,0,excellent,Healthy,2.0999999999999996,2.0,0,0.6346452414221394
+726,Male,3.8,83.4,6.5,High School,Yes,No,No,91.8,100.0,A,0,excellent,Healthy,1.0,1.0,0,0.35565129638254933
+727,Male,4.8,85.4,6.4,High School,Yes,Yes,No,69.0,97.5,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7475935413755629
+728,Male,4.2,75.0,5.3,High School,Yes,Yes,No,77.8,88.0,B,0,excellent,Healthy,2.2,2.0,0,0.6445815867101382
+729,Male,3.7,92.4,7.3,Bachelors,Yes,Yes,No,63.0,85.0,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7509703462195313
+730,Female,4.0,79.9,7.1,PhD,Yes,No,No,99.4,98.9,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.33861201676758274
+731,Male,7.1,82.7,6.6,Masters,Yes,No,No,93.8,100.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.49522589659990696
+732,Male,3.4,75.1,5.9,Bachelors,No,No,No,70.1,85.0,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.27689799720540287
+733,Male,3.8,59.4,8.1,,No,No,No,74.6,74.3,C,0,average,Critical,0.5999999999999996,1.0,0,0.17866014594007143
+734,Female,5.1,83.1,8.8,Masters,Yes,No,No,86.3,99.6,A,0,excellent,Healthy,1.3000000000000007,1.0,0,0.41045645086166743
+735,Female,5.2,100.0,6.2,,Yes,No,Yes,68.2,79.8,C,0,average,Healthy,1.2999999999999998,1.0,1,0.5394736842105263
+736,Male,5.3,92.8,6.1,Bachelors,Yes,Yes,No,62.1,91.3,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.824095637323397
+737,Female,4.5,84.8,7.4,High School,No,Yes,No,80.5,95.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7300108678776587
+738,Male,1.8,82.4,6.4,High School,Yes,No,Yes,70.9,66.6,D,1,average,Healthy,1.0999999999999996,1.0,1,0.26055736686849873
+739,Male,6.0,85.2,6.6,Masters,Yes,Yes,No,72.2,93.1,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.798750194069244
+740,Female,1.8,90.5,7.7,High School,Yes,Yes,No,60.0,81.8,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.6536252134761683
+741,Male,4.0,73.2,4.5,High School,Yes,No,No,49.4,62.9,D,1,average,Moderate,3.0,3.0,0,0.28920198726905766
+742,Female,2.4,96.1,8.4,Bachelors,Yes,Yes,No,72.8,94.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.7212389380530974
+743,Female,3.4,92.2,6.9,Bachelors,Yes,No,Yes,80.9,85.0,B,0,excellent,Healthy,0.5999999999999996,1.0,1,0.4030041918956684
+744,Male,4.0,92.2,6.3,Bachelors,Yes,No,Yes,67.3,82.4,B,0,excellent,Healthy,1.2000000000000002,1.0,1,0.4293199813693526
+745,Male,4.0,89.4,6.7,High School,Yes,Yes,No,87.2,89.5,B,0,excellent,Healthy,0.7999999999999998,1.0,0,0.7420043471510636
+746,Female,4.1,85.2,6.8,Bachelors,Yes,No,Yes,61.6,83.3,B,0,excellent,Healthy,0.7000000000000002,1.0,1,0.3820835274025773
+747,Male,5.9,91.7,4.7,Bachelors,Yes,Yes,Yes,57.3,100.0,A,0,excellent,Healthy,2.8,3.0,1,0.842299332401801
+748,Male,4.2,90.9,8.6,,No,Yes,No,69.2,92.4,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.7618382238782798
+749,Male,3.1,81.5,6.8,Masters,Yes,Yes,No,69.0,77.0,C,0,average,Healthy,0.7000000000000002,1.0,0,0.6442710759198882
+750,Female,4.9,79.3,7.3,,No,No,No,79.2,95.1,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.37366092221704705
+751,Female,5.3,86.0,7.9,Masters,Yes,No,No,60.7,88.8,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.4406148113646949
+752,Male,1.7,100.0,5.6,Bachelors,Yes,Yes,Yes,86.4,93.2,A,0,excellent,Healthy,1.9000000000000004,2.0,1,0.7192982456140351
+753,Female,4.4,72.6,7.4,High School,Yes,No,Yes,93.6,96.4,A,0,excellent,Moderate,0.09999999999999964,0.0,0,0.30232106815711846
+754,Female,4.6,70.3,6.5,Masters,Yes,Yes,No,69.5,67.2,D,1,average,Moderate,1.0,1.0,0,0.6274646793976091
+755,Female,3.1,86.6,7.8,Bachelors,Yes,No,No,85.0,84.6,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.3485483620555814
+756,Female,5.6,85.5,4.2,Bachelors,Yes,Yes,Yes,57.3,89.8,B,0,excellent,Healthy,3.3,3.0,1,0.783418723800652
+757,Female,3.3,86.7,6.7,Bachelors,Yes,No,No,82.9,90.3,A,0,excellent,Healthy,0.7999999999999998,1.0,0,0.3580577550069865
+758,Male,3.7,87.4,6.1,Bachelors,Yes,Yes,Yes,82.6,82.5,B,0,excellent,Healthy,1.4000000000000004,1.0,1,0.7140971898773483
+759,Male,3.2,82.8,7.3,High School,Yes,Yes,No,80.4,84.5,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.6582440614811365
+760,Male,3.5,99.9,7.4,Bachelors,No,Yes,Yes,69.8,72.1,C,0,average,Healthy,0.09999999999999964,0.0,0,0.7975081509082441
+761,Female,1.9,69.0,6.0,High School,Yes,No,Yes,34.5,53.2,F,1,poor,Moderate,1.5,2.0,1,0.16612327278372926
+762,Female,1.3,76.7,5.9,Masters,No,Yes,Yes,62.3,74.0,C,0,average,Healthy,1.5999999999999996,2.0,1,0.52992547741034
+763,Male,5.9,84.0,6.7,High School,Yes,No,No,62.5,96.8,A,0,excellent,Healthy,0.7999999999999998,1.0,0,0.45218133830150603
+764,Female,2.2,68.6,5.7,High School,Yes,Yes,No,58.3,81.2,B,0,excellent,Moderate,1.7999999999999998,2.0,0,0.50966464834653
+765,Male,2.0,83.2,7.8,Bachelors,Yes,Yes,No,71.5,85.4,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.6085623350411428
+766,Male,0.5,100.0,6.4,Masters,Yes,Yes,No,65.0,81.1,B,0,excellent,Healthy,1.0999999999999996,1.0,0,0.6666666666666666
+767,Male,2.5,85.2,3.3,Bachelors,Yes,No,No,60.1,83.9,B,0,excellent,Healthy,4.2,4.0,0,0.31190808880608606
+768,Female,1.5,87.3,6.4,High School,Yes,Yes,Yes,57.3,71.2,C,0,average,Healthy,1.0999999999999996,1.0,1,0.6168684986803291
+769,Female,6.0,72.4,5.6,Bachelors,Yes,No,No,61.4,85.5,B,0,excellent,Moderate,1.9000000000000004,2.0,0,0.37102158049992245
+770,Male,5.0,78.8,4.8,High School,Yes,No,No,83.5,98.4,A,0,excellent,Healthy,2.7,3.0,0,0.3743595714951094
+771,Male,2.5,81.2,5.3,,Yes,No,No,62.1,82.6,B,0,excellent,Healthy,2.2,2.0,0,0.2824095637323398
+772,Male,6.9,81.8,6.9,,Yes,Yes,Yes,63.8,91.6,A,0,excellent,Healthy,0.5999999999999996,1.0,1,0.8131501319670859
+773,Male,5.0,97.8,8.4,Bachelors,Yes,No,No,64.5,91.3,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.5144775655954045
+774,Female,3.0,90.6,7.2,High School,Yes,No,Yes,74.1,84.3,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.373660922217047
+775,Female,0.5,73.9,6.1,Masters,Yes,Yes,No,75.5,74.6,C,0,average,Moderate,1.4000000000000004,1.0,0,0.47418879056047203
+776,Male,6.9,87.5,7.3,High School,Yes,No,Yes,33.5,88.6,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.5218521968638411
+777,Male,1.4,90.0,6.2,Bachelors,Yes,Yes,No,82.3,73.6,C,0,average,Healthy,1.2999999999999998,1.0,0,0.6323940381928272
+778,Female,1.0,96.4,6.0,High School,Yes,Yes,No,87.2,95.8,A,0,excellent,Healthy,1.5,2.0,0,0.6620478186616986
+779,Female,5.0,100.0,5.4,,Yes,Yes,No,57.4,87.1,B,0,excellent,Healthy,2.0999999999999996,2.0,0,0.8640350877192983
+780,Male,7.2,74.8,4.7,High School,Yes,Yes,No,58.3,89.9,B,0,excellent,Moderate,2.8,3.0,0,0.774685607824872
+781,Male,5.6,76.9,6.3,Bachelors,No,Yes,No,64.6,79.1,C,0,average,Healthy,1.2000000000000002,1.0,0,0.7199968948920975
+782,Male,4.3,72.4,7.0,Masters,Yes,Yes,No,60.9,97.6,A,0,excellent,Moderate,0.5,0.0,0,0.6297935103244838
+783,Female,4.4,82.7,6.7,Bachelors,Yes,No,No,72.7,90.3,A,0,excellent,Healthy,0.7999999999999998,1.0,0,0.376804843968328
+784,Female,4.8,89.7,6.3,High School,Yes,Yes,No,46.6,78.1,C,0,average,Healthy,1.2000000000000002,1.0,0,0.77930445582984
+785,Female,4.6,94.9,5.7,,Yes,Yes,No,56.6,92.6,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.808880608601149
+786,Male,3.9,84.2,7.5,Bachelors,Yes,Yes,Yes,88.5,97.0,A,0,excellent,Healthy,0.0,0.0,0,0.6992702996429125
+787,Male,3.7,81.8,5.2,Bachelors,Yes,No,No,58.9,77.0,C,0,average,Healthy,2.3,2.0,0,0.33946592144077004
+788,Female,3.4,86.5,7.7,High School,Yes,No,No,84.9,96.8,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.3609687936655799
+789,Female,2.4,76.6,5.6,Bachelors,Yes,No,No,74.3,72.1,C,0,average,Healthy,1.9000000000000004,2.0,0,0.24410029498525074
+790,Male,3.1,100.0,5.9,Bachelors,Yes,No,No,48.3,75.4,C,0,average,Healthy,1.5999999999999996,2.0,0,0.4473684210526316
+791,Female,1.0,68.9,5.0,High School,Yes,Yes,No,77.6,57.6,F,1,poor,Moderate,2.5,2.0,0,0.45924545877969264
+792,Female,3.4,86.8,6.2,High School,No,No,Yes,68.6,67.6,D,1,average,Healthy,1.2999999999999998,1.0,1,0.36318118304611086
+793,Male,2.0,100.0,8.0,Masters,Yes,Yes,Yes,64.5,91.2,A,0,excellent,Healthy,0.5,0.0,0,0.7324561403508772
+794,Female,1.8,85.1,7.4,High School,Yes,Yes,Yes,72.9,86.8,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6138022046266107
+795,Male,3.8,83.1,8.0,High School,Yes,No,No,75.7,89.5,B,0,excellent,Healthy,0.5,0.0,0,0.3534389070020183
+796,Male,5.6,81.4,7.4,Bachelors,Yes,Yes,No,78.5,100.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7531827356000621
+797,Male,4.9,83.2,5.5,Masters,Yes,No,No,84.1,93.4,A,0,excellent,Healthy,2.0,2.0,0,0.40242198416394975
+798,Male,1.1,98.7,6.4,High School,Yes,No,No,74.9,78.7,C,0,average,Healthy,1.0999999999999996,1.0,0,0.35006210215804995
+799,Male,2.0,62.9,5.9,Bachelors,Yes,Yes,Yes,53.5,60.8,D,1,average,Moderate,1.5999999999999996,2.0,1,0.4588573202918802
+800,Male,4.9,100.0,8.4,High School,Yes,Yes,No,64.3,96.1,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.8596491228070176
+801,Male,2.0,70.8,5.4,High School,Yes,Yes,No,100.0,83.0,B,0,excellent,Moderate,2.0999999999999996,2.0,0,0.5171169073125291
+802,Female,3.2,82.3,7.9,High School,Yes,No,No,78.7,94.0,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.3212234125135849
+803,Male,4.3,80.7,7.9,Masters,Yes,No,No,98.4,100.0,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.3576696165191741
+804,Male,2.0,90.9,9.0,High School,Yes,Yes,No,86.7,94.6,A,0,excellent,Healthy,1.5,2.0,0,0.6653469958081044
+805,Female,3.7,69.0,6.3,High School,Yes,Yes,No,72.9,87.7,B,0,excellent,Moderate,1.2000000000000002,1.0,0,0.5784039745381152
+806,Female,1.5,89.6,7.7,Bachelors,Yes,No,No,73.6,82.1,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.30049681726439986
+807,Female,2.6,100.0,9.5,Masters,Yes,No,Yes,69.6,80.1,B,0,excellent,Healthy,2.0,2.0,0,0.4254385964912281
+808,Male,4.0,71.4,6.1,High School,No,Yes,Yes,49.1,57.8,F,1,poor,Moderate,1.4000000000000004,1.0,1,0.6092609843192052
+809,Female,1.1,86.9,5.0,Bachelors,Yes,Yes,No,70.2,74.3,C,0,average,Healthy,2.5,2.0,0,0.5963747865238318
+810,Male,4.2,78.4,4.5,High School,No,No,No,84.5,82.5,B,0,excellent,Healthy,3.0,3.0,0,0.3363219996894893
+811,Male,3.5,89.3,7.7,Bachelors,Yes,Yes,No,62.8,85.9,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7193370594628163
+812,Male,4.3,85.2,4.5,Bachelors,Yes,Yes,No,74.9,88.4,B,0,excellent,Healthy,3.0,3.0,0,0.724188790560472
+813,Male,3.8,78.6,6.4,Bachelors,Yes,No,No,80.2,100.0,A,0,excellent,Healthy,1.0999999999999996,1.0,0,0.3202530662940537
+814,Female,5.5,89.9,7.3,High School,No,No,Yes,59.1,75.6,C,0,average,Healthy,0.20000000000000018,0.0,0,0.47814780313615907
+815,Female,3.7,100.0,7.0,High School,Yes,Yes,No,64.6,78.0,C,0,average,Healthy,0.5,0.0,0,0.8070175438596491
+816,Male,2.9,83.1,7.3,High School,Yes,Yes,No,57.8,80.0,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.6472985561248253
+817,Male,3.7,92.2,7.1,Bachelors,Yes,Yes,Yes,60.1,80.2,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7494954199658439
+818,Male,4.3,72.1,8.3,High School,Yes,Yes,No,54.5,82.2,B,0,excellent,Moderate,0.8000000000000007,1.0,0,0.6275811209439528
+819,Female,3.6,75.4,5.7,Masters,Yes,No,No,59.2,79.6,C,0,average,Healthy,1.7999999999999998,2.0,0,0.28788231641049533
+820,Male,3.6,89.7,6.0,,No,Yes,No,87.0,96.3,A,0,excellent,Healthy,1.5,2.0,0,0.7266728768824717
+821,Male,2.4,99.8,5.9,,No,No,No,59.0,65.4,D,1,average,Healthy,1.5999999999999996,2.0,0,0.4151917404129793
+822,Female,2.5,88.6,7.8,PhD,Yes,No,No,71.5,79.9,C,0,average,Healthy,0.2999999999999998,0.0,0,0.33698183511877033
+823,Female,1.4,81.9,7.9,Bachelors,No,Yes,No,64.0,71.6,C,0,average,Healthy,0.40000000000000036,0.0,0,0.572659524918491
+824,Male,6.1,85.0,7.3,Masters,Yes,Yes,No,84.1,100.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.8016612327278373
+825,Female,1.6,72.5,8.2,High School,Yes,Yes,No,85.7,93.9,A,0,excellent,Moderate,0.6999999999999993,1.0,0,0.5121099208197485
+826,Female,2.5,91.0,5.4,Bachelors,Yes,No,Yes,80.4,87.5,B,0,excellent,Healthy,2.0999999999999996,2.0,1,0.35468095016301815
+827,Male,2.4,93.8,8.8,Bachelors,Yes,No,No,73.7,86.3,B,0,excellent,Healthy,1.3000000000000007,1.0,0,0.37094395280235987
+828,Female,4.8,80.5,8.6,Bachelors,No,Yes,Yes,67.2,77.6,C,0,average,Healthy,1.0999999999999996,1.0,0,0.7114578481602236
+829,Male,3.1,80.3,7.7,Masters,Yes,No,Yes,55.7,70.2,C,0,average,Healthy,0.20000000000000018,0.0,0,0.30208818506443097
+830,Female,5.4,87.7,8.9,High School,Yes,No,No,93.3,100.0,A,0,excellent,Healthy,1.4000000000000004,1.0,0,0.4575376494333179
+831,Male,2.5,80.6,4.8,High School,Yes,No,Yes,60.9,73.5,C,0,average,Healthy,2.7,3.0,1,0.2779847849712777
+832,Male,3.9,84.3,6.2,,Yes,Yes,No,78.0,91.2,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.7000077627697562
+833,Male,2.2,100.0,5.9,High School,Yes,Yes,Yes,82.7,78.1,C,0,average,Healthy,1.5999999999999996,2.0,1,0.7412280701754387
+834,Female,6.7,82.5,7.7,Bachelors,No,No,No,63.3,89.0,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.4762071106970967
+835,Male,1.7,81.4,5.5,,Yes,Yes,Yes,82.5,82.0,B,0,excellent,Healthy,2.0,2.0,1,0.5821301040211148
+836,Female,4.0,78.5,7.7,Bachelors,Yes,Yes,Yes,79.2,89.5,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.6616208663251048
+837,Male,4.5,92.4,8.4,Bachelors,Yes,Yes,Yes,90.7,100.0,A,0,excellent,Healthy,0.9000000000000004,1.0,0,0.7860580655177768
+838,Male,4.1,83.2,7.6,High School,Yes,Yes,No,64.4,88.7,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7006675981990375
+839,Female,3.2,78.5,7.1,High School,Yes,Yes,No,54.6,86.0,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.6265331470268592
+840,Male,3.3,98.2,5.6,PhD,Yes,No,Yes,63.9,82.9,B,0,excellent,Healthy,1.9000000000000004,2.0,1,0.44286601459400715
+841,Male,3.6,99.2,5.8,Bachelors,Yes,Yes,No,72.5,88.6,B,0,excellent,Healthy,1.7000000000000002,2.0,0,0.7967318739326191
+842,Female,3.3,79.0,8.3,Bachelors,Yes,Yes,No,70.7,79.2,C,0,average,Healthy,0.8000000000000007,1.0,0,0.6346064275733582
+843,Male,4.9,66.3,7.7,High School,Yes,No,No,65.3,85.1,B,0,excellent,Moderate,0.20000000000000018,0.0,0,0.2777907157273715
+844,Male,6.8,95.1,6.8,High School,Yes,Yes,No,47.1,80.2,B,0,excellent,Healthy,0.7000000000000002,1.0,0,0.9068467629250115
+845,Male,2.7,78.2,6.3,,Yes,Yes,No,75.6,80.2,B,0,excellent,Healthy,1.2000000000000002,1.0,0,0.6023909330849248
+846,Male,1.4,92.9,4.4,Bachelors,Yes,No,Yes,93.7,80.3,B,0,excellent,Healthy,3.0999999999999996,3.0,1,0.32044713553796
+847,Female,3.4,65.3,5.5,Bachelors,Yes,No,No,75.6,69.8,D,1,average,Moderate,2.0,2.0,0,0.2046266107747244
+848,Female,7.4,93.9,9.1,High School,No,No,No,77.3,100.0,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.5909796615432387
+849,Male,2.3,72.9,5.3,Masters,Yes,No,No,76.9,80.8,B,0,excellent,Moderate,2.2,2.0,0,0.21242819437975477
+850,Female,6.0,92.3,7.0,,Yes,Yes,Yes,74.8,100.0,A,0,excellent,Healthy,0.5,0.0,0,0.8511100760751437
+851,Male,6.0,85.1,8.0,Bachelors,Yes,No,Yes,81.2,99.5,A,0,excellent,Healthy,0.5,0.0,0,0.46467939760906685
+852,Female,2.7,75.5,5.3,High School,Yes,Yes,No,74.7,80.7,B,0,excellent,Healthy,2.2,2.0,0,0.5824794286601459
+853,Male,4.4,80.9,7.0,Bachelors,Yes,No,No,66.2,86.6,B,0,excellent,Healthy,0.5,0.0,0,0.3635305076851421
+854,Male,5.9,91.9,7.9,Masters,No,Yes,No,60.4,98.8,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.8437742586554884
+855,Male,2.9,86.1,6.8,Bachelors,Yes,No,No,67.0,81.9,B,0,excellent,Healthy,0.7000000000000002,1.0,0,0.3360891165968017
+856,Male,3.2,90.8,10.0,PhD,Yes,No,Yes,73.8,79.0,C,0,average,Healthy,2.5,2.0,0,0.38390777829529577
+857,Male,2.6,100.0,4.8,Bachelors,Yes,No,No,66.2,91.7,A,0,excellent,Healthy,2.7,3.0,0,0.4254385964912281
+858,Male,2.0,69.4,8.1,PhD,Yes,Yes,No,73.8,78.8,C,0,average,Moderate,0.5999999999999996,1.0,0,0.5067924235367179
+859,Female,2.5,100.0,6.6,Bachelors,Yes,Yes,No,75.3,84.8,B,0,excellent,Healthy,0.9000000000000004,1.0,0,0.7543859649122807
+860,Male,1.7,86.0,7.7,High School,No,No,Yes,80.0,66.5,D,1,average,Healthy,0.20000000000000018,0.0,0,0.2827200745225897
+861,Female,3.6,76.0,7.3,High School,Yes,No,No,85.4,91.1,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.29230709517155723
+862,Male,2.3,71.7,5.9,High School,Yes,Yes,No,70.9,74.2,C,0,average,Moderate,1.5999999999999996,2.0,0,0.5369119701909641
+863,Female,3.9,83.1,7.1,,Yes,No,Yes,54.3,86.3,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.35782487191429896
+864,Female,1.2,94.2,4.6,Masters,Yes,No,No,65.9,71.2,C,0,average,Healthy,2.9000000000000004,3.0,0,0.32126222636236607
+865,Female,4.0,83.7,7.5,Masters,Yes,Yes,No,70.5,83.5,B,0,excellent,Healthy,0.0,0.0,0,0.6999689489209752
+866,Male,4.8,100.0,7.2,High School,Yes,No,Yes,48.0,89.8,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.5219298245614036
+867,Male,0.5,70.5,7.6,High School,Yes,Yes,No,86.7,80.3,B,0,excellent,Moderate,0.09999999999999964,0.0,0,0.4491150442477876
+868,Female,4.1,84.9,8.1,Masters,Yes,Yes,No,71.7,91.6,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7132044713553797
+869,Male,5.3,72.5,7.2,Bachelors,Yes,Yes,No,74.6,95.8,A,0,excellent,Moderate,0.2999999999999998,0.0,0,0.6743906225741344
+870,Female,1.7,88.6,7.0,High School,Yes,No,No,86.4,84.4,B,0,excellent,Healthy,0.5,0.0,0,0.3018941158205248
+871,Male,6.0,93.9,5.7,Bachelors,Yes,No,No,62.4,96.1,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.5295761527713089
+872,Female,4.1,80.8,5.9,High School,Yes,Yes,Yes,76.9,92.6,A,0,excellent,Healthy,1.5999999999999996,2.0,1,0.6829684831547896
+873,Female,2.4,59.0,8.2,High School,Yes,No,No,68.7,75.5,C,0,average,Critical,0.6999999999999993,1.0,0,0.11430678466076698
+874,Male,3.4,87.0,8.5,Bachelors,Yes,No,No,67.8,85.1,B,0,excellent,Healthy,1.0,1.0,0,0.3646561092997982
+875,Female,4.3,89.4,6.5,High School,Yes,No,No,60.7,93.8,A,0,excellent,Healthy,1.0,1.0,0,0.42182890855457233
+876,Male,3.6,89.0,6.9,,Yes,Yes,No,90.0,81.4,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.7215106349945661
+877,Female,4.3,97.4,5.7,High School,Yes,No,Yes,65.5,98.8,A,0,excellent,Healthy,1.7999999999999998,2.0,1,0.48082595870206496
+878,Female,2.1,74.3,8.2,High School,No,Yes,No,78.4,65.4,D,1,average,Moderate,0.6999999999999993,1.0,0,0.5473140816643378
+879,Male,3.8,91.8,7.6,High School,Yes,Yes,No,47.5,77.6,C,0,average,Healthy,0.09999999999999964,0.0,0,0.7509315323707498
+880,Male,1.4,96.9,9.1,Masters,Yes,Yes,Yes,84.2,85.6,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.6832789939450397
+881,Male,3.3,67.2,5.7,Bachelors,Yes,Yes,No,82.6,81.4,B,0,excellent,Moderate,1.7999999999999998,2.0,0,0.5475857786058066
+882,Female,2.1,88.2,6.3,Bachelors,Yes,No,No,71.2,85.4,B,0,excellent,Healthy,1.2000000000000002,1.0,0,0.31648812296227297
+883,Male,2.4,80.0,7.1,High School,Yes,Yes,No,67.3,71.9,C,0,average,Healthy,0.40000000000000036,0.0,0,0.6025073746312685
+884,Female,5.4,84.2,7.6,High School,Yes,No,Yes,74.8,94.4,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.43172643999378985
+885,Female,5.1,88.5,6.5,Bachelors,Yes,Yes,No,97.5,100.0,A,0,excellent,Healthy,1.0,1.0,0,0.7836127930445583
+886,Male,4.4,80.1,5.8,Masters,Yes,Yes,Yes,48.8,77.1,C,0,average,Healthy,1.7000000000000002,2.0,1,0.6909641360037261
+887,Male,1.9,78.2,7.9,PhD,Yes,No,Yes,79.4,76.8,C,0,average,Healthy,0.40000000000000036,0.0,0,0.2339698804533458
+888,Female,3.0,85.3,7.7,High School,Yes,No,No,59.1,79.8,C,0,average,Healthy,0.20000000000000018,0.0,0,0.33457537649433317
+889,Female,5.3,74.1,5.7,Bachelors,Yes,Yes,Yes,69.8,82.2,B,0,excellent,Moderate,1.7999999999999998,2.0,1,0.6861900326036329
+890,Male,3.7,74.1,8.4,,Yes,Yes,Yes,67.0,77.4,C,0,average,Moderate,0.9000000000000004,1.0,0,0.6160145940071416
+891,Male,7.0,91.8,8.2,Bachelors,Yes,Yes,Yes,64.9,100.0,A,0,excellent,Healthy,0.6999999999999993,1.0,0,0.8912824095637323
+892,Male,4.1,73.5,7.0,Masters,Yes,Yes,Yes,69.9,87.2,B,0,excellent,Moderate,0.5,0.0,0,0.6291336748952027
+893,Male,3.8,91.7,6.9,High School,Yes,No,Yes,56.4,76.4,C,0,average,Healthy,0.5999999999999996,1.0,1,0.41686073591057293
+894,Male,3.0,89.6,7.5,,No,No,No,82.4,79.6,C,0,average,Healthy,0.0,0.0,0,0.3662862909486104
+895,Female,3.7,67.7,5.8,Masters,Yes,Yes,Yes,48.5,71.4,C,0,average,Moderate,1.7000000000000002,2.0,1,0.5688169538891477
+896,Female,3.3,78.2,6.8,,Yes,No,Yes,76.5,80.8,B,0,excellent,Healthy,0.7000000000000002,1.0,1,0.2953733892252756
+897,Female,4.6,96.9,4.2,Masters,Yes,No,Yes,66.1,91.1,A,0,excellent,Healthy,3.3,3.0,1,0.4902965378046888
+898,Female,4.9,75.2,7.9,Bachelors,Yes,Yes,No,55.9,78.8,C,0,average,Healthy,0.40000000000000036,0.0,0,0.6767582673497904
+899,Male,2.3,80.4,4.9,,Yes,Yes,No,72.4,66.7,D,1,average,Healthy,2.5999999999999996,3.0,0,0.6010712622263624
+900,Male,1.5,89.6,8.6,High School,Yes,No,No,51.3,68.8,D,1,average,Healthy,1.0999999999999996,1.0,0,0.30049681726439986
+901,Male,0.7,92.8,6.4,High School,Yes,No,No,70.5,69.9,D,1,average,Healthy,1.0999999999999996,1.0,0,0.28900791802515136
+902,Female,4.3,82.5,6.5,Masters,Yes,Yes,No,52.9,80.7,B,0,excellent,Healthy,1.0,1.0,0,0.7042772861356932
+903,Female,1.8,79.0,6.0,Masters,Yes,Yes,No,75.5,73.3,C,0,average,Healthy,1.5,2.0,0,0.5688169538891477
+904,Male,0.5,99.2,6.5,,No,Yes,Yes,58.9,68.8,D,1,average,Healthy,1.0,1.0,1,0.6607669616519174
+905,Male,4.1,100.0,8.5,High School,Yes,No,No,64.6,90.8,A,0,excellent,Healthy,1.0,1.0,0,0.49122807017543857
+906,Female,7.2,94.8,3.8,Masters,Yes,Yes,No,73.5,100.0,A,0,excellent,Healthy,3.7,4.0,0,0.9221782331936034
+907,Female,3.5,85.9,8.3,Masters,Yes,Yes,No,60.7,85.0,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.694263313150132
+908,Male,4.8,76.9,7.2,High School,Yes,No,Yes,69.3,86.0,B,0,excellent,Healthy,0.2999999999999998,0.0,0,0.35157584226051863
+909,Male,3.6,76.7,5.4,Bachelors,Yes,No,No,51.8,73.1,C,0,average,Healthy,2.0999999999999996,2.0,0,0.2974693370594628
+910,Female,3.4,90.2,5.5,High School,Yes,No,Yes,77.6,87.6,B,0,excellent,Healthy,2.0,2.0,1,0.3882549293587953
+911,Male,4.9,89.2,8.8,High School,Yes,Yes,Yes,91.2,96.5,A,0,excellent,Healthy,1.3000000000000007,1.0,0,0.7800031051079026
+912,Male,3.1,99.0,5.7,,Yes,Yes,No,100.0,100.0,A,0,excellent,Healthy,1.7999999999999998,2.0,0,0.7733271231175284
+913,Male,3.9,91.5,5.4,Bachelors,No,Yes,No,71.1,82.1,B,0,excellent,Healthy,2.0999999999999996,2.0,0,0.7531051079024996
+914,Female,4.0,70.0,8.2,Masters,Yes,Yes,No,79.5,80.3,B,0,excellent,Moderate,0.6999999999999993,1.0,0,0.5989365005433939
+915,Female,2.5,95.5,7.2,,Yes,No,No,48.6,76.9,C,0,average,Healthy,0.2999999999999998,0.0,0,0.38786679087098275
+916,Female,5.0,75.0,5.7,Bachelors,No,Yes,Yes,88.0,81.7,B,0,excellent,Healthy,1.7999999999999998,2.0,1,0.6796693060083839
+917,Female,3.2,81.2,7.1,Masters,Yes,Yes,Yes,79.3,88.1,B,0,excellent,Healthy,0.40000000000000036,0.0,0,0.646444651451638
+918,Female,2.4,87.5,5.6,Bachelors,Yes,Yes,Yes,64.2,88.1,B,0,excellent,Healthy,1.9000000000000004,2.0,1,0.6578171091445428
+919,Female,4.3,100.0,8.1,PhD,Yes,Yes,No,84.8,97.3,A,0,excellent,Healthy,0.5999999999999996,1.0,0,0.8333333333333334
+920,Female,2.2,100.0,8.1,High School,Yes,No,Yes,66.9,83.4,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.4078947368421053
+921,Male,3.5,91.1,7.4,,Yes,Yes,Yes,64.5,72.8,C,0,average,Healthy,0.09999999999999964,0.0,0,0.7326113957460021
+922,Male,3.5,83.2,7.2,High School,Yes,Yes,No,75.7,90.5,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.6743518087253532
+923,Male,5.1,90.3,8.9,High School,Yes,Yes,Yes,57.2,83.8,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.7968871293277441
+924,Male,4.2,93.9,6.8,Masters,Yes,Yes,No,82.3,93.1,A,0,excellent,Healthy,0.7000000000000002,1.0,0,0.7839621176835895
+925,Male,3.5,81.8,5.4,Bachelors,Yes,Yes,No,57.3,71.2,C,0,average,Healthy,2.0999999999999996,2.0,0,0.664027324949542
+926,Male,4.7,100.0,7.3,Bachelors,Yes,No,No,57.4,95.3,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.5175438596491229
+927,Male,5.6,87.3,9.3,Bachelors,Yes,No,No,59.1,99.6,A,0,excellent,Healthy,1.8000000000000007,2.0,0,0.4633597267505046
+928,Female,4.3,90.0,5.6,Masters,Yes,No,No,79.1,92.4,A,0,excellent,Healthy,1.9000000000000004,2.0,0,0.4262536873156342
+929,Female,3.5,91.7,6.4,High School,Yes,No,Yes,62.6,75.4,C,0,average,Healthy,1.0999999999999996,1.0,1,0.40370284117373084
+930,Male,1.5,89.2,7.3,High School,Yes,No,No,53.8,80.8,B,0,excellent,Healthy,0.20000000000000018,0.0,0,0.2975469647570253
+931,Male,1.9,93.4,6.7,High School,Yes,No,No,62.7,72.9,C,0,average,Healthy,0.7999999999999998,1.0,0,0.3460642757335817
+932,Female,3.0,78.8,5.6,Bachelors,Yes,Yes,Yes,69.6,63.7,D,1,average,Healthy,1.9000000000000004,2.0,1,0.6199736065828287
+933,Male,2.6,79.4,8.1,High School,Yes,Yes,Yes,55.8,75.3,C,0,average,Healthy,0.5999999999999996,1.0,0,0.6068545256947679
+934,Male,3.2,74.0,9.6,Bachelors,Yes,Yes,No,56.2,71.7,C,0,average,Moderate,2.0999999999999996,2.0,0,0.5933473063188947
+935,Female,3.6,89.4,7.0,Bachelors,Yes,No,No,95.3,100.0,A,0,excellent,Healthy,0.5,0.0,0,0.39112715416860744
+936,Male,4.3,92.8,5.7,High School,Yes,No,No,59.7,83.3,B,0,excellent,Healthy,1.7999999999999998,2.0,0,0.4469026548672566
+937,Female,3.4,89.6,4.9,Bachelors,Yes,No,No,66.1,85.6,B,0,excellent,Healthy,2.5999999999999996,3.0,0,0.38383015059773323
+938,Male,4.2,100.0,7.1,PhD,No,Yes,Yes,65.6,93.1,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.8289473684210527
+939,Female,3.6,84.9,8.1,High School,Yes,No,No,64.9,77.3,C,0,average,Healthy,0.5999999999999996,1.0,0,0.3579413134606428
+940,Female,0.5,91.7,7.4,Bachelors,Yes,Yes,No,77.5,74.8,C,0,average,Healthy,0.09999999999999964,0.0,0,0.605457227138643
+941,Female,2.1,74.1,6.8,Masters,Yes,Yes,Yes,81.4,76.7,C,0,average,Moderate,0.7000000000000002,1.0,1,0.5458391554106505
+942,Male,3.3,81.1,6.1,Bachelors,No,Yes,No,66.3,85.3,B,0,excellent,Healthy,1.4000000000000004,1.0,0,0.650093153237075
+943,Female,1.7,92.0,5.5,Masters,Yes,Yes,No,55.2,68.6,D,1,average,Healthy,2.0,2.0,0,0.6603011954665424
+944,Male,4.4,93.5,7.8,Bachelors,Yes,Yes,No,85.3,96.4,A,0,excellent,Healthy,0.2999999999999998,0.0,0,0.7897841950007763
+945,Male,5.8,82.1,7.9,Bachelors,Yes,Yes,Yes,68.9,95.7,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.7671169073125291
+946,Male,5.3,84.3,4.9,High School,Yes,Yes,No,90.8,96.1,A,0,excellent,Healthy,2.5999999999999996,3.0,0,0.761411271541686
+947,Male,3.2,69.8,8.7,Masters,Yes,No,No,43.1,70.4,C,0,average,Moderate,1.1999999999999993,1.0,0,0.22904052165812763
+948,Female,5.7,81.4,7.5,Masters,Yes,No,No,72.3,85.8,B,0,excellent,Healthy,0.0,0.0,0,0.4242353671790095
+949,Female,3.7,93.9,8.5,High School,No,No,No,93.0,100.0,A,0,excellent,Healthy,1.0,1.0,0,0.4286989597888527
+950,Male,3.0,90.8,5.2,Bachelors,No,Yes,Yes,65.8,65.8,D,1,average,Healthy,2.3,2.0,1,0.7084691818040677
+951,Male,2.6,90.0,5.2,,No,No,No,67.3,72.4,C,0,average,Healthy,2.3,2.0,0,0.3516922838068623
+952,Female,3.0,85.5,6.6,Bachelors,Yes,No,No,73.5,83.6,B,0,excellent,Healthy,0.9000000000000004,1.0,0,0.33605030274802045
+953,Male,2.9,85.1,7.4,Bachelors,Yes,Yes,Yes,63.3,89.5,B,0,excellent,Healthy,0.09999999999999964,0.0,0,0.6620478186616984
+954,Female,3.8,78.4,9.0,,Yes,Yes,No,66.3,77.9,C,0,average,Healthy,1.5,2.0,0,0.6521114733736998
+955,Male,3.7,92.0,7.6,Masters,Yes,Yes,No,65.9,100.0,A,0,excellent,Healthy,0.09999999999999964,0.0,0,0.7480204937121565
+956,Male,3.5,89.2,6.5,Bachelors,Yes,Yes,No,62.5,88.3,B,0,excellent,Healthy,1.0,1.0,0,0.7185995963359727
+957,Female,4.2,89.9,5.6,Masters,Yes,No,Yes,84.7,93.5,A,0,excellent,Healthy,1.9000000000000004,2.0,1,0.42113025927651
+958,Male,5.3,79.7,8.3,PhD,Yes,No,No,75.5,89.0,B,0,excellent,Healthy,0.8000000000000007,1.0,0,0.39415463437354453
+959,Female,4.9,63.5,5.6,Bachelors,Yes,Yes,No,73.0,87.6,B,0,excellent,Moderate,1.9000000000000004,2.0,0,0.5904750815090825
+960,Male,1.3,96.0,8.8,Bachelors,Yes,No,No,79.7,80.5,B,0,excellent,Healthy,1.3000000000000007,1.0,0,0.33892252755783264
+961,Male,0.5,80.2,6.5,Bachelors,Yes,No,No,66.8,75.4,C,0,average,Healthy,1.0,1.0,0,0.18731563421828912
+962,Male,4.9,76.4,8.7,,Yes,No,No,60.7,80.7,B,0,excellent,Healthy,1.1999999999999993,1.0,0,0.352274491538581
+963,Female,1.4,91.9,7.6,Masters,Yes,Yes,Yes,62.8,73.0,C,0,average,Healthy,0.09999999999999964,0.0,0,0.6464058376028567
+964,Male,3.2,81.1,6.6,High School,Yes,No,No,70.0,78.4,C,0,average,Healthy,0.9000000000000004,1.0,0,0.3123738549914609
+965,Male,1.7,95.6,6.2,PhD,Yes,Yes,No,57.3,69.5,D,1,average,Healthy,1.2999999999999998,1.0,0,0.6868498680329141
+966,Male,0.8,91.2,6.4,Bachelors,Yes,No,No,64.0,76.2,C,0,average,Healthy,1.0999999999999996,1.0,0,0.28159447290793355
+967,Male,4.3,91.8,7.3,High School,Yes,Yes,Yes,63.8,90.0,A,0,excellent,Healthy,0.20000000000000018,0.0,0,0.7728613569321534
+968,Female,4.6,71.3,6.9,Bachelors,Yes,Yes,No,95.5,100.0,A,0,excellent,Moderate,0.5999999999999996,1.0,0,0.6348393106660456
+969,Female,2.6,97.1,6.1,Bachelors,Yes,No,No,36.7,60.0,D,1,average,Healthy,1.4000000000000004,1.0,0,0.404052165812762
+970,Male,0.5,87.6,6.6,PhD,Yes,Yes,No,67.8,78.3,C,0,average,Healthy,0.9000000000000004,1.0,0,0.575221238938053
+971,Female,2.7,81.3,6.9,High School,Yes,Yes,Yes,90.7,100.0,A,0,excellent,Healthy,0.5999999999999996,1.0,1,0.625252290017078
+972,Male,4.1,86.4,4.2,Masters,No,Yes,Yes,71.5,75.6,C,0,average,Healthy,3.3,3.0,1,0.7242664182580345
+973,Male,1.3,67.2,7.3,Bachelors,Yes,No,No,79.0,84.1,B,0,excellent,Moderate,0.20000000000000018,0.0,0,0.12653314702685922
+974,Male,3.8,89.1,5.6,High School,No,Yes,Yes,71.2,77.9,C,0,average,Healthy,1.9000000000000004,2.0,1,0.7310200279459712
+975,Female,3.5,74.7,5.4,,Yes,No,No,62.0,67.9,D,1,average,Moderate,2.0999999999999996,2.0,0,0.27833410961030897
+976,Female,4.4,71.5,4.8,Bachelors,Yes,Yes,Yes,43.1,67.0,D,1,average,Moderate,2.7,3.0,1,0.6275423070951716
+977,Female,3.7,69.8,4.6,High School,No,Yes,No,72.5,80.9,B,0,excellent,Moderate,2.9000000000000004,3.0,0,0.5843036795528644
+978,Female,2.0,96.1,5.2,Bachelors,Yes,Yes,No,60.7,72.1,C,0,average,Healthy,2.3,2.0,0,0.7036950784039746
+979,Female,5.3,78.7,5.9,PhD,Yes,Yes,No,60.4,83.0,B,0,excellent,Healthy,1.5999999999999996,2.0,0,0.7201133364384412
+980,Female,3.3,100.0,9.1,High School,Yes,Yes,No,64.0,93.9,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.7894736842105262
+981,Female,3.5,79.6,6.2,High School,Yes,Yes,No,90.9,91.4,A,0,excellent,Healthy,1.2999999999999998,1.0,0,0.6478031361589814
+982,Female,2.1,67.9,7.0,High School,No,No,Yes,98.9,79.7,C,0,average,Moderate,0.5,0.0,0,0.16678310821301046
+983,Female,2.8,73.8,7.3,High School,Yes,No,Yes,72.6,77.7,C,0,average,Moderate,0.20000000000000018,0.0,0,0.24099518708275114
+984,Male,2.2,97.4,7.0,Masters,Yes,Yes,No,64.4,85.0,B,0,excellent,Healthy,0.5,0.0,0,0.7220540288775036
+985,Female,3.2,83.4,6.7,Bachelors,Yes,Yes,No,55.9,75.4,C,0,average,Healthy,0.7999999999999998,1.0,0,0.6626688402421984
+986,Female,6.1,79.5,5.4,High School,Yes,No,No,75.6,96.4,A,0,excellent,Healthy,2.0999999999999996,2.0,0,0.42776742741810275
+987,Female,1.4,86.6,8.5,High School,Yes,Yes,No,91.4,81.8,B,0,excellent,Healthy,1.0,1.0,0,0.6073202918801428
+988,Female,1.1,90.0,9.0,High School,Yes,Yes,No,67.0,85.8,B,0,excellent,Healthy,1.5,2.0,0,0.6192361434559851
+989,Female,5.7,96.2,4.8,,Yes,No,No,41.5,80.9,B,0,excellent,Healthy,2.7,3.0,0,0.5333799099518709
+990,Female,3.2,99.5,5.6,High School,Yes,No,Yes,78.0,93.9,A,0,excellent,Healthy,1.9000000000000004,2.0,1,0.448067070330694
+991,Female,2.5,81.4,6.5,,Yes,No,No,81.8,81.9,B,0,excellent,Healthy,1.0,1.0,0,0.28388448998602706
+992,Female,5.1,71.7,5.6,Bachelors,Yes,Yes,No,51.0,80.4,B,0,excellent,Moderate,1.9000000000000004,2.0,0,0.6597189877348238
+993,Female,2.6,80.9,7.4,High School,Yes,Yes,No,72.1,78.8,C,0,average,Healthy,0.09999999999999964,0.0,0,0.6179164725974228
+994,Female,6.2,87.6,5.9,PhD,Yes,No,No,75.4,92.7,A,0,excellent,Healthy,1.5999999999999996,2.0,0,0.4918879056047198
+995,Female,4.5,75.4,9.4,Bachelors,Yes,Yes,No,69.1,79.1,C,0,average,Healthy,1.9000000000000004,2.0,0,0.6606893339543549
+996,Male,2.8,75.4,8.2,Masters,Yes,Yes,No,60.5,70.7,C,0,average,Healthy,0.6999999999999993,1.0,0,0.586127930445583
+997,Male,6.7,88.4,7.1,,No,Yes,No,82.2,99.5,A,0,excellent,Healthy,0.40000000000000036,0.0,0,0.853050768514206
+998,Female,2.6,84.5,8.0,High School,Yes,Yes,Yes,65.2,79.2,C,0,average,Healthy,0.5,0.0,0,0.6444651451637945
+999,Female,4.6,85.3,8.1,High School,No,No,Yes,52.2,82.2,B,0,excellent,Healthy,0.5999999999999996,1.0,0,0.4047508150908244
+1000,Male,3.9,77.4,6.1,Masters,Yes,No,No,45.4,70.4,C,0,average,Healthy,1.4000000000000004,1.0,0,0.31578947368421056

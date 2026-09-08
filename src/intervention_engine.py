@@ -257,7 +257,8 @@ def generate_interventions(self, needs):
             {}
         )
 
-        recommendation = rule.get(severity)
+        recommendation = rule[severity]["recommendation"]
+        reason = rule[severity]["reason"]
 
         if recommendation and recommendation not in seen:
 
