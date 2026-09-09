@@ -16,7 +16,7 @@ class Classifier:
         self.model = None
 
     def split_data(self, data, test_size=0.2, random_state=42):
-        X = data.drop(columns=["final_grade","final_exam_score","at_risk"])
+        X = data.drop(columns=["final_grade","at_risk",'academic_level', 'final_exam_score'])
         y = data["at_risk"]
 
         (
@@ -57,7 +57,6 @@ class Classifier:
                 max_depth=5,
                 random_state=42,
                 scale_pos_weight=scale_pos_weight,
-                eval_metric="logloss"
             ))
         ])
 
@@ -93,11 +92,13 @@ class Classifier:
         if predictions is None:
             predictions, _ = self.predict(self.X_test_class)
 
+        probabilities = self.model.predict_proba(self.X_test_class)[:, 1]
+
         results = {
-            "Recall": recall_score(y_test, predictions),
-            "Precision": precision_score(y_test, predictions),
-            "F1 Score": f1_score(y_test, predictions),
-            "ROC AUC": roc_auc_score(y_test, predictions),
+            "Recall": recall_score(y_test, predictions,average='weighted'),
+            "Precision": precision_score(y_test, predictions,average='weighted'),
+            "F1 Score": f1_score(y_test, predictions,average='weighted'),
+            "ROC AUC": roc_auc_score(y_test, probabilities),
         }
 
         return results
