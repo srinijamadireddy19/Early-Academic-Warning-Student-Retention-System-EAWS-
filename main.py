@@ -3,6 +3,10 @@ from src.feature_engineer import FeatureEngineer
 from src.data_preprocessing import DataPreprocessor
 from src.train_classifier import Classifier
 from src.train_regressor import Regressor
+from src.utils import (
+    save_model,
+    load_model,
+)
 
 from src.config import (
     RAW_DATA_PATH,
@@ -38,6 +42,7 @@ def main():
     for metric, value in results.items():
         print(f"{metric}: {value:.4f}")
 
+    save_model(classifier.model, "models/classifier_model.pkl")    
 
     print("Regression model training and evaluation.")
     regressor = Regressor()
@@ -48,6 +53,8 @@ def main():
 
     for metric, value in results_reg.items():
         print(f"{metric}: {value:.4f}")
+    
+    save_model(regressor.model, "models/regressor_model.pkl")
 
     coefficients = regressor.get_feature_coefficients()
     print(coefficients)

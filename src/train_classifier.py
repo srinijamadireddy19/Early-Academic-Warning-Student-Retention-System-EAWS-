@@ -1,11 +1,13 @@
+import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import recall_score, precision_score, f1_score, roc_auc_score, accuracy_score
 from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
 from src.data_preprocessing import DataPreprocessor
-from src.config import RISK_THRESHOLD
-
+from src.config import RISK_THRESHOLD, CLASSIFICATION_TARGET, RANDOM_STATE, TEST_SIZE
+from src.feature_engineer import FeatureEngineer
+from src.utils import save_model, load_model
 
 class Classifier:
     def __init__(self):
@@ -16,7 +18,7 @@ class Classifier:
         self.model = None
 
     def split_data(self, data, test_size=0.2, random_state=42):
-        X = data.drop(columns=["final_grade","at_risk",'academic_level', 'final_exam_score'])
+        X = data.drop(columns=["final_grade", 'final_exam_score'])
         y = data["at_risk"]
 
         (
